@@ -1,0 +1,161 @@
+body {
+  background-image: url(../images/Untitled\ design.png);
+}
+
+.header-background {
+  background-image: url(../images/Website_Banner2.png);
+  background-repeat: no-repeat;
+}
+
+.tilt-warp {
+  font-family: "Tilt Warp", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "XROT" 0, "YROT" 0;
+}
+
+.barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section#hero {
+  margin-bottom: 3%;
+  /* background-color: #4d34e5; */
+}
+
+.video_section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#kdDance {
+  margin-top: 2%;
+  right: 0;
+  bottom: 0;
+  max-width: 75%;
+  max-height: 75%;
+  border-radius: 25px;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  top: 23%;
+  /* bottom: 34%; */
+  /* background: linear-gradient(to right, #7560eb5c, #7560eb00); */
+  /* background: rgba(0, 0, 0, 0.4); */
+  color: #fff3ef;
+  width: 73.5%;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+.picture {
+  max-width: 50%;
+}
+
+section#first-paragraph {
+  background-color: #fff3ef;
+  border-radius: 50px;
+  margin-top: 3%;
+}
+
+section#second-paragraph {
+  margin-top: 3%;
+}
+
+.third-cont {
+  background-color: #fff3ef;
+  border-radius: 50px;
+  margin-top: 4%;
+  margin-left: 10%;
+}
+
+.fourth-cont {
+  background-color: #fff3ef;
+  border-radius: 50px;
+  margin-top: 2%;
+  margin-right: 10%;
+}
+
+.fifth-cont {
+  background-color: #fff3ef;
+  border-radius: 50px;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+
+/* Header */
+/* .text-bg-dark {
+  background-color: #fff3ef !important;
+  color: #000000 !important;
+} */
+
+.nav-text {
+  color: #fa0c94;
+  font-size: 1.4rem;
+}
+
+.nav-text:hover {
+  color: black;
+}
+
+.nav {
+  --bs-nav-link-hover-color: black;
+}
+
+.location-text {
+  color: #fff3ef9c;
+  font-size: 1.4rem;
+}
+
+.about-text {
+  color: #fa0c94;
+}
+
+.size {
+  font-size: 1.5rem;
+}
+
+.half-one {
+  background-color: #fff3ef84;
+  padding-top: 3%;
+  border-radius: 50px;
+  margin-right: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.half-two {
+  background-color: #00000084;
+  color: #fff3ef;
+  padding-top: 3%;
+  border-radius: 50px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.half-img {
+  padding-bottom: 2%;
+}
+
+.row {
+  justify-content: center !important;
+}
+
+.box-text {
+  padding-left: 7%;
+  padding-right: 0%;
+}
+
+.pic-shadow {
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.headshots {
+  border-radius: 25px;
+}

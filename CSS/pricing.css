@@ -1,0 +1,157 @@
+body {
+  background-image: url(../images/Untitled\ design.png);
+}
+
+.header-background {
+  background-image: url(../images/Website_Banner2.png);
+  background-repeat: no-repeat;
+}
+
+.funky-divider {
+  width: inherit;
+  height: 75px;
+}
+
+.social-title {
+  background-image: url("../images/Banner_3.png");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+#socials {
+  margin-top: 3%;
+}
+
+.social-selling {
+  margin-top: 5%;
+  position: relative;
+  left: 1%;
+}
+
+.social-sell-pic {
+  position: relative;
+  left: 1%;
+}
+
+.web-selling {
+  margin-top: 5%;
+}
+
+.everything-big {
+  position: relative;
+  left: 4%;
+}
+
+.slides {
+  margin-bottom: 1%;
+}
+
+.social-p {
+  color: #fff3ef;
+}
+
+.web-title {
+  color: #fff3ef;
+}
+
+.nav-text {
+  color: #fa0c94;
+  font-size: 1.4rem;
+}
+
+.nav-text:hover {
+  color: black;
+}
+
+.nav {
+  --bs-nav-link-hover-color: black;
+}
+
+.location-text {
+  color: #fff3ef9c;
+  font-size: 1.4rem;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../images/knife.gif) !important;
+  height: 15%;
+  width: 50%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../images/disco-ball4.gif);
+  height: 17%;
+  width: 50%;
+}
+
+.tilt-warp {
+  font-family: "Tilt Warp", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "XROT" 0, "YROT" 0;
+}
+
+.barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#break-paragraph {
+  background-color: #ffdbcd;
+  /* background-image: url(../images/Banner_4.png); */
+  /* background-repeat: no-repeat; */
+  border-radius: 50px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.pricing-text {
+  font-size: 1.75rem;
+}
+
+.meal-size {
+  font-size: 3rem;
+  color: #fa0c94;
+}
+
+.heading-color {
+  color: black;
+  font-size: 3rem;
+}
+
+.pricing-size {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.float-background {
+  background-color: #fff3ef;
+  border-radius: 25px;
+  margin-right: 20%;
+}
+
+.btn-pricing {
+  background-color: #fa0c94;
+  color: #11ddac;
+  box-shadow: 3px 3px 2px 2px #686860b3;
+}
+
+.lower-pics {
+  height: 550px;
+  width: 550px;
+
+  position: relative;
+  right: 5%;
+}
+
+.social-pic {
+  position: relative;
+  left: 3%;
+}

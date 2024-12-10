@@ -1,0 +1,72 @@
+body {
+  background-image: url(../images/Untitled\ design.png);
+}
+
+.header-background {
+  background-image: url(../images/Website_Banner2.png);
+  background-repeat: no-repeat;
+}
+
+/* Header */
+/* .text-bg-dark {
+  background-color: #fff3ef84 !important;
+  color: #000000 !important;
+} */
+
+.nav-text {
+  color: #fa0c94;
+  font-size: 1.4rem;
+}
+
+.nav-text:hover {
+  color: black;
+}
+
+.nav {
+  --bs-nav-link-hover-color: black;
+}
+
+.location-text {
+  color: #fff3ef9c;
+  font-size: 1.4rem;
+}
+
+.faq-text {
+  color: #fa0c94;
+}
+
+.tilt-warp {
+  font-family: "Tilt Warp", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "XROT" 0, "YROT" 0;
+}
+
+.barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.white-background {
+  background-color: #fff3ef;
+  border-radius: 25px;
+}
+
+.pink-background {
+  background-color: #fa0c94;
+  color: #fff3ef;
+  border-radius: 25px;
+}
+
+.black-background {
+  background-color: black;
+  color: #fff3ef;
+  border-radius: 25px;
+}
+
+.off-white-background {
+  background-color: #ffdbcd;
+  border-radius: 25px;
+}

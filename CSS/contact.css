@@ -1,0 +1,77 @@
+body {
+  background-image: url(../images/Untitled\ design.png);
+}
+
+.header-background {
+  background-image: url(../images/Website_Banner2.png);
+  background-repeat: no-repeat;
+}
+
+/* Header */
+/* .text-bg-dark {
+  background-color: #fff3ef84 !important;
+} */
+
+.nav-text {
+  color: #fa0c94;
+  font-size: 1.4rem;
+}
+
+.nav-text:hover {
+  color: black;
+}
+
+.nav {
+  --bs-nav-link-hover-color: black;
+}
+
+.location-text {
+  color: #fff3ef9c;
+  font-size: 1.4rem;
+}
+
+.email-square {
+  background-color: #fff3ef !important;
+  border-radius: 25px;
+}
+
+.socials-square {
+  background-color: #ffdbcd !important;
+  color: #000000 !important;
+  border-radius: 25px;
+}
+
+.btn-email {
+  background-color: #fa0c94;
+  color: #11ddac;
+  box-shadow: 3px 3px 2px 2px #686860b3;
+}
+
+.btn-email:hover {
+  background-color: #060606;
+  color: #fa0c94;
+}
+
+.insta-post {
+  display: flex;
+  justify-content: center;
+}
+
+.conts {
+  display: flex;
+  align-items: center;
+}
+
+.tilt-warp {
+  font-family: "Tilt Warp", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "XROT" 0, "YROT" 0;
+}
+
+.barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
