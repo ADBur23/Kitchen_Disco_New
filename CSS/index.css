@@ -436,3 +436,10 @@ h3 {
     display: flex;
   }
 }
+
+@media (max-width: 1400px) {
+  .col-lg-6 {
+    padding-right: 0px;
+    padding-left: 48px;
+  }
+}

@@ -107,7 +107,8 @@ body {
 }
 
 .carousel-control-prev-icon {
-  background-image: url(../images/disco-ball4.gif);
+  background-image: url(../images/knife.gif);
+  transform: scaleX(-1);
   height: 17%;
   width: 50%;
 }
