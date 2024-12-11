@@ -42,8 +42,8 @@ $("");
 //   // $(".ant-bex").fadeOut();
 // }
 
-var initialSrc = "../images/20240129_092655.jpg";
-var scrollSrc = "../images/20240128_175556.jpg";
+var initialSrc = "./Images/20240129_092655.jpg";
+var scrollSrc = "./Images/20240128_175556.jpg";
 
 $(window).scroll(function () {
   var value = $(this).scrollTop();
