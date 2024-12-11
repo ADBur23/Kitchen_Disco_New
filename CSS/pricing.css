@@ -1,11 +1,11 @@
 body {
-  background-image: url(../images/Untitled\ design.png);
+  background-image: url(../Images/Untitled\ design.png);
 }
 
 /* ------ Header ------ */
 
 .header-background {
-  background-image: url(../images/Website_Banner2.png);
+  background-image: url(../Images/Website_Banner2.png);
   background-repeat: no-repeat;
 }
 
@@ -40,12 +40,12 @@ body {
   height: 75px;
   background-size: contain;
   background-repeat: round;
-  background-image: url(../images/home-button2.svg);
+  background-image: url(../Images/home-button2.svg);
   transition: background-image 0.3s ease-in-out;
 }
 
 .logo-hover:hover {
-  background-image: url(../images/home-button-green.svg);
+  background-image: url(../Images/home-button-green.svg);
 }
 
 .funky-divider {
@@ -54,7 +54,7 @@ body {
 }
 
 .social-title {
-  background-image: url("../images/Banner_3.png");
+  background-image: url("../Images/Banner_3.png");
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -101,13 +101,13 @@ body {
 }
 
 .carousel-control-next-icon {
-  background-image: url(../images/knife.gif) !important;
+  background-image: url(../Images/knife.gif) !important;
   height: 15%;
   width: 50%;
 }
 
 .carousel-control-prev-icon {
-  background-image: url(../images/knife.gif);
+  background-image: url(../Images/knife.gif);
   transform: scaleX(-1);
   height: 17%;
   width: 50%;

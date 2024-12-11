@@ -3,7 +3,7 @@
 body {
   margin-left: 0 !important;
   margin-right: 0 !important;
-  background-image: url(../images/Untitled\ design.png);
+  background-image: url(../Images/Untitled\ design.png);
 }
 
 section#about {
@@ -12,7 +12,7 @@ section#about {
 }
 
 section#what-we-offer {
-  background-image: url(../images/Untitled\ design.png);
+  background-image: url(../Images/Untitled\ design.png);
 }
 
 /* section#completed {
@@ -61,7 +61,7 @@ section#what-we-offer {
 }
 
 .header-background {
-  background-image: url(../images/Website_Banner2.png);
+  background-image: url(../Images/Website_Banner2.png);
   background-repeat: no-repeat;
 }
 
@@ -76,12 +76,12 @@ section#what-we-offer {
   height: 75px;
   background-size: contain;
   background-repeat: round;
-  background-image: url(../images/home-button2.svg);
+  background-image: url(../Images/home-button2.svg);
   transition: background-image 0.3s ease-in-out;
 }
 
 .logo-hover:hover {
-  background-image: url(../images/home-button-green.svg);
+  background-image: url(../Images/home-button-green.svg);
 }
 
 /* ------ Hero ------ */
