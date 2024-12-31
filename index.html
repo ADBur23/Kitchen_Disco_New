@@ -26,16 +26,14 @@
   </head>
   <body onload="typeWriter()">
     <header class="p-1 tilt-warp header-background">
-      <div class="container">
+      <div class="container main-nav">
         <div
           class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
         >
           <div class="logo-button">
-            <a href="./HTML/index.html" class="px-2 logo-hover"> </a>
+            <a href="./index.html" class="px-2 logo-hover"> </a>
           </div>
-          <ul
-            class="nav col-12 col-lg-auto me-lg-auto justify-content-center mb-md-0"
-          >
+          <ul class="nav col-lg-auto me-lg-auto justify-content-center mb-md-0">
             <li>
               <a href="./HTML/contact.html" class="nav-link px-2 nav-text"
                 >Contact Us</a
@@ -57,37 +55,71 @@
           </ul>
         </div>
       </div>
+      <button
+        class="navbar-toggler collapsed logo-hover hidden-nav"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarsExample01"
+        aria-controls="navbarsExample01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarsExample01">
+        <ul class="navbar-nav me-auto mb-2 nav-text">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="./HTML/contact.html"
+              >Contact Us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./HTML/pricing.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./HTML/faqs.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./HTML/about.html">About</a>
+          </li>
+        </ul>
+      </div>
     </header>
 
-    <nav></nav>
     <section id="hero">
       <div class="container px-4 pt-4">
         <div class="row flex-lg-row align-items-center g-5 pt-4">
-          <div class="col-10 col-sm-8 col-lg-6 hero-img">
+          <div class="col-10 col-sm-6 col-lg-6 hero-img">
             <img
               src="./Images/Final Logo for website.png"
-              class="d-block mx-lg-auto img-fluid"
+              class="d-block mx-lg-auto img-fluid main-logo"
               alt="Bootstrap Themes"
               width="700"
               height="600"
               loading="lazy"
             />
           </div>
-          <div class="col-lg-6 hero-title">
+          <div class="col-lg-6 col-sm-6 hero-title mt-3">
             <h1
               id="typeChat"
-              class="display-5 title-color text-body-emphasis lh-1 mb-3 tilt-warp"
+              class="display-5 title-color text-body-emphasis lh-1 mb-4 tilt-warp"
             >
               <!-- Social Media. <br />
               Websites. <br />
               We've got your digital footprint covered, baby! -->
             </h1>
-            <p class="lead"></p>
+
             <div
-              class="d-grid gap-2 d-md-flex justify-content-md-start hero-button barlow-regular"
+              class="gap-2 d-md-flex justify-content-md-start hero-button barlow-regular"
             >
               <a href="#about">
-                <button type="button" class="btn btn-about btn-lg px-4 me-md-2">
+                <button
+                  type="button"
+                  class="btn btn-about btn-lg px-4 me-3 me-md-2"
+                >
                   About Us
                 </button></a
               >
@@ -102,22 +134,31 @@
       </div>
     </section>
 
+    <marquee
+      direction="right"
+      behavior="alternate"
+      style="border: black 2px solid"
+    >
+      Kitchen Disco Creative
+    </marquee>
+
+    <br />
+    <br />
+
     <section id="about">
       <div class="container col-xxl-8 px-4 py-4">
         <div
           class="row flex-lg-row-reverse align-items-center g-5 py-2 about-text"
         >
-          <div class="col-10 col-sm-8 col-lg-6">
+          <div class="col-10 col-sm-8 col-lg-6 au-div">
             <img
               src="./Images/20240129_092655.jpg"
               class="d-block mx-lg-auto img-fluid ant-bex pic-shadow"
               alt="Bootstrap Themes"
-              width="400"
-              height="500"
               loading="lazy"
             />
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 au-desc">
             <h1 class="display-5 fw-bold about-title lh-1 mb-3 tilt-warp">
               About Us
             </h1>
@@ -133,9 +174,9 @@
               No fancy jargon or eye-watering invoices – just beautiful digital
               design that works as hard as you do.
             </p>
-            <h3 class="about-title tilt-warp">
+            <h1 class="about-title tilt-warp">
               Ready to cook up something special?
-            </h3>
+            </h1>
             <p class="lead barlow-regular">
               Our menu includes websites from £400, branding from £250, and
               social media packages from £150.
@@ -151,14 +192,41 @@
     <section id="what-we-offer">
       <div class="container text-center">
         <div class="row offer-desc">
-          <div class="col-6 col-lg-4">
+          <div class="col-sm-7 col-md-6 col-lg-4">
             <div class="offer-text tilt-warp">
               <h2>What we offer</h2>
             </div>
+            <div class="offer-second-text-two">
+              <h3 class="offer-title tilt-warp">Websites</h3>
+              <p class="barlow-regular">
+                We can create a website for your dream project or business that
+                will make you stand out in a crowded space. We can also offer
+                ongoing website updates and changes.
+              </p>
+            </div>
 
+            <div class="offer-second-text">
+              <div class="offer-img-first">
+                <img
+                  class="offer-shake pic-shadow2"
+                  src="./Images/sales-small.png"
+                  alt=""
+                  height="300px"
+                  width="300px"
+                />
+              </div>
+              <h3 class="offer-title tilt-warp offer-hide">Websites</h3>
+              <p class="barlow-regular offer-hide">
+                We can create a website for your dream project or business that
+                will make you stand out in a crowded space. We can also offer
+                ongoing website updates and changes.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-7 col-md-6 col-lg-4 mt2">
             <div class="offer-img">
               <img
-                class="offer-shake pic-shadow2"
+                class="offer-shake-middle pic-shadow2"
                 src="./Images/sale-social-small2.png"
                 alt=""
                 height="300px"
@@ -174,26 +242,14 @@
               </p>
             </div>
           </div>
-          <div class="col-6 col-lg-4">
-            <div class="offer-second-text">
-              <h3 class="offer-title tilt-warp">Websites</h3>
+          <div class="col-12 col-lg-4">
+            <div class="offer-last-text-hide">
+              <h3 class="offer-title tilt-warp">The Whole Damn Meal</h3>
               <p class="barlow-regular">
-                We can create a website for your dream project or business that
-                will make you stand out in a crowded space. We can also offer
-                ongoing website updates and changes.
+                You want both Social Media Stategy AND website development, oh
+                boy, yeah, we can do that.
               </p>
             </div>
-            <div class="offer-img">
-              <img
-                class="offer-shake-middle pic-shadow2"
-                src="./Images/sales-screen3.png"
-                alt=""
-                height="300px"
-                width="500px"
-              />
-            </div>
-          </div>
-          <div class="col-12 col-lg-4">
             <div class="offer-img-last">
               <img
                 class="offer-shake-last pic-shadow2"
@@ -366,24 +422,18 @@
       </div>
     </section>  -->
     <section id="contact">
-      <div class="container py-5">
+      <div class="container pt-5">
         <div class="p-5 pt-3 mb-4 bg-body-tertiary contact-background">
-          <div class="container-fluid py-3 contact-text barlow-regular col-6">
-            <h1 class="display-5 fw-bold contact-text tilt-warp">Contact Us</h1>
-            <p class="col-md-8 fs-4 contact-text">
-              Ready to Get This Party Started? 🎉
-            </p>
-            <p class="col-md-8 fs-4 contact-text">
+          <div class="container-fluid py-3 contact-text barlow-regular">
+            <h1 class="display-5 fw-bold tilt-warp">Contact Us</h1>
+            <p class="col-md-8 fs-4">Ready to Get This Party Started? 🎉</p>
+            <p class="col-md-8 fs-4">
               Drop us a line and let's cook up something amazing together!
             </p>
-            <p class="col-md-8 fs-4 contact-text">
-              Whether you've got a fully-baked idea
-            </p>
-            <p class="col-md-8 fs-4 contact-text">
-              Or just the first ingredients of a plan
-            </p>
-            <p class="col-md-8 fs-4 contact-text">We're all ears.</p>
-            <p class="col-md-8 fs-4 contact-text">
+            <p class="col-md-8 fs-4">Whether you've got a fully-baked idea</p>
+            <p class="col-md-8 fs-4">Or just the first ingredients of a plan</p>
+            <p class="col-md-8 fs-4">We're all ears.</p>
+            <p class="col-md-8 fs-4">
               📧 hello@kitchendisco.digital <br />📱 01234 567890
             </p>
 
@@ -393,9 +443,9 @@
               </button></a
             >
           </div>
-          <div class="col-6">
+          <!-- <div class="disco-ball">
             <img src="./Video/moving_disco.gif" alt="" width="75%" />
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -420,7 +470,7 @@
             >
           </div>
 
-          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <ul class="col-md-4 justify-content-end list-unstyled d-flex">
             <li class="ms-3">
               <a
                 class="text-body-secondary"

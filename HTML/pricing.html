@@ -25,16 +25,14 @@
   </head>
   <body>
     <header class="p-1 tilt-warp header-background">
-      <div class="container">
+      <div class="container main-nav">
         <div
           class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
         >
           <div class="logo-button">
             <a href="../index.html" class="px-2 logo-hover"> </a>
           </div>
-          <ul
-            class="nav col-12 col-lg-auto me-lg-auto justify-content-center mb-md-0"
-          >
+          <ul class="nav col-lg-auto me-lg-auto justify-content-center mb-md-0">
             <li>
               <a href="./contact.html" class="nav-link px-2 nav-text"
                 >Contact Us</a
@@ -53,6 +51,35 @@
             </li>
           </ul>
         </div>
+      </div>
+      <button
+        class="navbar-toggler collapsed logo-hover hidden-nav"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarsExample01"
+        aria-controls="navbarsExample01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarsExample01">
+        <ul class="navbar-nav me-auto mb-2 nav-text">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./faqs.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -99,15 +126,15 @@
               <div class="carousel-item active">
                 <img
                   src="../Images/sales-screen3.png"
-                  style="height: 620px"
-                  class="d-block w-100"
+                  style="height: 300px"
+                  class="d-block web-pic"
                   alt="..."
                 />
-                <rect
+                <!-- <rect
                   width="50%"
                   height="50%"
                   fill="var(--bs-secondary-color)"
-                ></rect>
+                ></rect> -->
 
                 <div class="container">
                   <div class="carousel-caption text-start">
@@ -124,8 +151,8 @@
               <div class="carousel-item">
                 <img
                   src="../Images/sale-social-big3.png"
-                  style="height: 620px"
-                  class="d-block w-100 pics social-pic"
+                  style="height: 300px"
+                  class="d-block pics social-pic"
                   alt="..."
                 />
                 <!-- <rect
@@ -148,15 +175,15 @@
               <div class="carousel-item">
                 <img
                   src="../Images/everything4.png"
-                  style="height: 620px"
-                  class="d-block w-100 everything-big"
+                  style="height: 300px"
+                  class="d-block everything-big"
                   alt="..."
                 />
-                <rect
+                <!-- <rect
                   width="100%"
                   height="100%"
                   fill="var(--bs-secondary-color)"
-                ></rect>
+                ></rect> -->
 
                 <div class="container">
                   <div class="carousel-caption text-end">
@@ -172,15 +199,15 @@
               <div class="carousel-item">
                 <img
                   src="../Images/extras1.png"
-                  style="height: 620px"
-                  class="d-block w-100"
+                  style="height: 300px"
+                  class="d-block extras-big"
                   alt="..."
                 />
-                <rect
+                <!-- <rect
                   width="100%"
                   height="100%"
                   fill="var(--bs-secondary-color)"
-                ></rect>
+                ></rect> -->
 
                 <div class="container">
                   <div class="carousel-caption">
@@ -324,7 +351,7 @@
               </h2>
 
               <p class="lead">Baby, we have more services.</p>
-              <div class="pricing-size float-background">
+              <div class="pricing-size extras float-background">
                 <p>Video Editing</p>
                 <ul>
                   <li>
