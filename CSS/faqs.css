@@ -22,7 +22,7 @@ body {
 
 .header-background {
   background-image: url(../Images/Website_Banner2.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .nav-text {
@@ -52,12 +52,14 @@ body {
 
 .logo-hover {
   display: flex;
-  width: 100px;
+  width: 110px;
   height: 75px;
   background-size: contain;
-  background-repeat: round;
+  background-repeat: no-repeat;
   background-image: url(../Images/home-button2.svg);
   transition: background-image 0.3s ease-in-out;
+  position: relative;
+  top: 6px;
 }
 
 .logo-hover:hover {
@@ -68,7 +70,8 @@ body {
   color: #fa0c94;
 }
 
-.white-background {
+.white-background,
+.white-background-change {
   background-color: #fff3ef;
   border-radius: 25px;
 }
@@ -88,4 +91,74 @@ body {
 .off-white-background {
   background-color: #ffdbcd;
   border-radius: 25px;
+}
+
+@media (min-width: 768px) {
+  .main-nav {
+    display: block;
+  }
+  .hidden-nav {
+    display: none;
+  }
+  .logo-hover {
+    top: -2px;
+    right: 195px;
+  }
+  .white-background-change {
+    background-color: #fa0c94;
+    color: #fff3ef;
+    border-radius: 25px;
+  }
+
+  .pink-background {
+    background-color: #fff3ef;
+    border-radius: 25px;
+    color: black;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo-button {
+    width: 43%;
+    height: 67px;
+  }
+  .logo-hover {
+    right: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo-hover {
+    right: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo-button {
+    width: 63%;
+    height: 67px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-nav {
+    display: none;
+  }
+  .hidden-nav {
+    display: flex;
+  }
+}
+
+@media (max-width: 991px) {
+  .logo-button {
+    width: 0%;
+    height: 67px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .nav {
+    position: relative;
+    left: 20%;
+  }
 }
