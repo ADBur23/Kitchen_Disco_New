@@ -73,7 +73,7 @@ section#what-we-offer {
 
 .logo-hover {
   display: flex;
-  width: 110px;
+  width: 100px;
   height: 75px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -450,6 +450,10 @@ h3 {
   }
   .main-nav {
     display: block;
+    display: block;
+    position: fixed;
+    z-index: 1;
+    width: -webkit-fill-available;
   }
   .hidden-nav {
     display: none;
@@ -513,8 +517,8 @@ h3 {
     animation-delay: 4s;
   }
   .logo-hover {
-    top: -2px;
-    right: 195px;
+    top: 1px;
+    right: 185px;
   }
   .au-div {
     padding-left: 16% !important;
@@ -545,7 +549,7 @@ h3 {
   }
   .logo-button {
     width: 43%;
-    height: 67px;
+    height: 80px;
   }
   .hero-img {
     padding-left: 48px !important;
@@ -559,7 +563,9 @@ h3 {
     padding-right: 1% !important;
   }
   .logo-hover {
-    right: 25px;
+    right: -15px;
+    width: 120px;
+    top: 5.7px;
   }
   .hero-title {
     margin-bottom: 0px;
@@ -584,9 +590,9 @@ h3 {
 }
 
 @media (min-width: 1024px) {
-  .logo-hover {
-    right: 40px;
-  }
+  /* .logo-hover {
+    right: -15px;
+  } */
   .hero-title {
     margin-bottom: 0px;
     margin-top: 27px !important;
@@ -599,8 +605,7 @@ h3 {
     top: 13.75rem;
   }
   .logo-button {
-    width: 63%;
-    height: 67px;
+    width: 65%;
   }
   /* .logo-hover {
     display: flex;
