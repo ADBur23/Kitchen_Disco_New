@@ -22,7 +22,7 @@ body {
 
 .header-background {
   background-image: url(../Images/Website_Banner2.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .nav-text {
@@ -52,12 +52,14 @@ body {
 
 .logo-hover {
   display: flex;
-  width: 100px;
+  width: 110px;
   height: 75px;
   background-size: contain;
-  background-repeat: round;
+  background-repeat: no-repeat;
   background-image: url(../Images/home-button2.svg);
   transition: background-image 0.3s ease-in-out;
+  position: relative;
+  top: 6px;
 }
 
 .logo-hover:hover {
@@ -79,7 +81,7 @@ section#hero {
   margin-top: 2%;
   right: 0;
   bottom: 0;
-  max-width: 75%;
+  max-width: 100%;
   max-height: 75%;
   border-radius: 25px;
 }
@@ -87,7 +89,7 @@ section#hero {
 /* Add some content at the bottom of the video/page */
 .content {
   position: absolute;
-  top: 23%;
+  top: 20.5%;
   /* bottom: 34%; */
   /* background: linear-gradient(to right, #7560eb5c, #7560eb00); */
   /* background: rgba(0, 0, 0, 0.4); */
@@ -95,16 +97,26 @@ section#hero {
   width: 73.5%;
   padding-top: 2%;
   padding-left: 2%;
+  right: 22%;
 }
 
 .picture {
-  max-width: 50%;
+  width: 65%;
 }
 
 section#first-paragraph {
   background-color: #fff3ef;
   border-radius: 50px;
   margin-top: 3%;
+}
+
+.ant-bex {
+  width: 300px;
+  border-radius: 25px;
+}
+
+.first-para-text {
+  margin-top: 2rem !important;
 }
 
 section#second-paragraph {
@@ -115,21 +127,25 @@ section#second-paragraph {
   background-color: #fff3ef;
   border-radius: 50px;
   margin-top: 4%;
-  margin-left: 10%;
+  margin-left: 12.5%;
+
+  max-width: 87.5%;
 }
 
 .fourth-cont {
   background-color: #fff3ef;
   border-radius: 50px;
   margin-top: 2%;
-  margin-right: 10%;
+  margin-right: 12%;
+  max-width: 88%;
 }
 
 .fifth-cont {
   background-color: #fff3ef;
   border-radius: 50px;
   margin-top: 2%;
-  margin-left: 10%;
+  margin-left: 12.5%;
+  max-width: 87.5%;
 }
 
 .about-text {
@@ -152,14 +168,16 @@ section#second-paragraph {
 .half-two {
   background-color: #00000084;
   color: #fff3ef;
-  padding-top: 3%;
+  padding-top: 1.5rem;
   border-radius: 50px;
   padding-left: 7%;
   padding-right: 7%;
+  padding-bottom: 2rem;
 }
 
 .half-img {
   padding-bottom: 2%;
+  margin-top: 1rem;
 }
 
 .row {
@@ -177,4 +195,102 @@ section#second-paragraph {
 
 .headshots {
   border-radius: 25px;
+}
+
+.puter-drink {
+  margin-left: 1rem;
+}
+
+@media (min-width: 340px) {
+  /* .third-cont {
+    width: 297px;
+  }
+  .fourth-cont {
+    width: ;
+  } */
+}
+
+@media (min-width: 768px) {
+  .main-nav {
+    display: block;
+  }
+  .hidden-nav {
+    display: none;
+  }
+  .logo-hover {
+    top: -2px;
+    right: 195px;
+  }
+  .half-one {
+    margin-right: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .half-two {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2rem;
+  }
+  .puter-drink {
+    margin-left: 2rem;
+  }
+  .salt-ball {
+    margin-left: -1rem;
+  }
+  .daft-chef {
+    margin-left: 3rem;
+  }
+  .ant-bex {
+    margin-left: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo-button {
+    width: 43%;
+    height: 67px;
+  }
+  .logo-hover {
+    right: 25px;
+  }
+  .ant-bex {
+    width: 350px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo-hover {
+    right: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo-button {
+    width: 63%;
+    height: 67px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-nav {
+    display: none;
+  }
+  .hidden-nav {
+    display: flex;
+  }
+}
+
+@media (max-width: 991px) {
+  .logo-button {
+    width: 0%;
+    height: 67px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .nav {
+    position: relative;
+    left: 20%;
+  }
 }
