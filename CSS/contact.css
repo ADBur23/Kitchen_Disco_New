@@ -2,6 +2,51 @@ body {
   background-image: url(../Images/Untitled\ design.png);
 }
 
+h1 {
+  font-size: 2.4rem !important;
+  color: #fa0c94;
+}
+
+h2 {
+  font-size: 1.25rem !important;
+  color: #212553;
+}
+
+h3 {
+  font-size: 1rem !important;
+}
+
+span {
+  font-size: 0.85rem;
+}
+
+p {
+  font-size: 0.85rem !important;
+}
+
+/* h1 {
+  font-size: 1.75rem;
+  color: #212553;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #fa0c94;
+}
+
+h3 {
+  font-size: 1rem;
+  color: #fa0c94;
+}
+
+p {
+  font-size: 0.85rem;
+} */
+
+.text-centre {
+  text-align: center;
+}
+
 /* ------ Fonts ------ */
 
 .tilt-warp {
@@ -10,37 +55,65 @@ body {
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "XROT" 0, "YROT" 0;
+  letter-spacing: -3px;
 }
 
-.barlow-regular {
-  font-family: "Barlow", sans-serif;
+.lekton-regular {
+  font-family: "Lekton", serif;
   font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-medium {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-bold-italic {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.shrikhand-regular {
+  font-family: "Shrikhand", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.questrial-regular {
+  font-family: "Questrial", serif;
+  font-weight: 600;
   font-style: normal;
 }
 
 /* ------ Header ------ */
 
 .header-background {
-  background-image: url(../Images/Website_Banner2.png);
+  /* background-image: url(../Images/Website_Banner2.png);
+  background-repeat: repeat; */
+  background-color: #212553;
   background-repeat: repeat;
+  border: 3px solid #000000;
 }
 .nav-text {
   color: #fa0c94;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   filter: drop-shadow(3px 2px 2px black);
 }
 
 .nav-text:hover {
-  color: black;
+  color: #def984;
 }
 
 .nav {
-  --bs-nav-link-hover-color: black;
+  --bs-nav-link-hover-color: #def984;
 }
 
 .location-text {
   color: #fff3ef9c;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   filter: drop-shadow(3px 2px 2px black);
 }
 
@@ -65,12 +138,47 @@ body {
   background-image: url(../Images/home-button-green.svg);
 }
 
-/* ------ Pages ------ */
+/* ------ Email ------ */
 
 .email-square {
   background-color: #fff3ef !important;
   border-radius: 25px;
 }
+
+.email-inner {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+.first-sentance {
+  margin-bottom: 0.5rem;
+}
+
+.btn-email {
+  background-color: #fa0c94;
+  color: #11ddac;
+  box-shadow: 3px 3px 2px 2px #686860b3;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.btn-email:hover {
+  background-color: #060606;
+  color: #fa0c94;
+}
+
+.top-btn-mob {
+  display: inline-block;
+  position: relative;
+  left: 3rem;
+  text-decoration: none;
+}
+
+.top-btn-disp {
+  display: none;
+}
+
+/* ------ Socials ------ */
 
 .socials-square {
   background-color: #ffdbcd !important;
@@ -78,15 +186,15 @@ body {
   border-radius: 25px;
 }
 
-.btn-email {
-  background-color: #fa0c94;
-  color: #11ddac;
-  box-shadow: 3px 3px 2px 2px #686860b3;
+.insta-head,
+.tt-head {
+  margin-left: 0.5rem;
 }
 
-.btn-email:hover {
-  background-color: #060606;
-  color: #fa0c94;
+.insta-ad,
+.tt-ad {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .insta-post {
@@ -99,18 +207,49 @@ body {
   align-items: center;
 }
 
-.top-btn {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-}
-
 @media (min-width: 375px) {
   .insta-head,
   .tt-head,
   .tt-ad,
   .insta-ad {
     margin-left: 10px;
+  }
+  .top-btn-mob {
+    left: 5rem;
+  }
+}
+
+@media (min-width: 425px) {
+  h1 {
+    font-size: 2.9rem !important;
+  }
+  h2 {
+    font-size: 1.75rem !important;
+    color: #212553;
+  }
+  h3 {
+    font-size: 1.5rem !important;
+  }
+  span {
+    font-size: 1.15rem;
+  }
+  p {
+    font-size: 1.15rem !important;
+  }
+  .top-btn-mob {
+    left: 7rem;
+  }
+}
+
+@media (min-width: 470px) {
+  .top-btn-mob {
+    left: 8rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .top-btn-mob {
+    left: 10rem;
   }
 }
 
@@ -123,7 +262,7 @@ body {
   }
   .logo-hover {
     top: -2px;
-    right: 195px;
+    right: 182px;
   }
   .insta-head,
   .tt-head,
@@ -131,30 +270,66 @@ body {
   .insta-ad {
     margin-left: 15px;
   }
+  .top-btn-mob {
+    display: none;
+  }
+  .top-btn-disp {
+    display: inline-block;
+    position: relative;
+    left: 21rem;
+    text-decoration: none;
+  }
+  .email-inner {
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
 }
 
 @media (min-width: 992px) {
   .logo-button {
-    width: 43%;
+    width: 27%;
     height: 67px;
   }
   .logo-hover {
-    right: 25px;
+    right: 4px;
   }
   .tt-ad {
     margin-bottom: 40px;
+  }
+  h1 {
+    font-size: 3.5rem !important;
+  }
+  h2 {
+    font-size: 2.2rem !important;
+    color: #212553;
+  }
+  h3 {
+    font-size: 2rem !important;
+  }
+  span {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1.4rem !important;
+  }
+  .btn-email {
+    font-size: 1.5rem;
+  }
+  .location-text,
+  .nav-text {
+    font-size: 1.7rem;
   }
 }
 
 @media (min-width: 1024px) {
   .logo-hover {
-    right: 40px;
+    right: 4px;
   }
 }
 
 @media (min-width: 1200px) {
   .logo-button {
-    width: 63%;
+    width: 55%;
     height: 67px;
   }
   .tt-ad {
@@ -162,6 +337,9 @@ body {
   }
   .insta-ad {
     margin-bottom: 30px;
+  }
+  .top-btn-disp {
+    left: 28rem;
   }
 }
 
@@ -174,6 +352,12 @@ body {
   .tt-ad,
   .insta-ad {
     margin-left: 45px;
+  }
+  .btn-email {
+    font-size: 1.7rem;
+  }
+  .top-btn-disp {
+    left: 33rem;
   }
 }
 

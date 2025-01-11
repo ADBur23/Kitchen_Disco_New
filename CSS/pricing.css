@@ -2,6 +2,41 @@ body {
   background-image: url(../Images/Untitled\ design.png);
 }
 
+h1 {
+  font-size: 3.5rem !important;
+  color: #fa0c94;
+  text-align: center;
+}
+h2 {
+  font-size: 2.8rem !important;
+  color: #212553;
+}
+h3 {
+  font-size: 2rem !important;
+}
+span {
+  font-size: 3.5rem;
+}
+p {
+  font-size: 1.4rem !important;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 1.4rem !important;
+}
+
+.selling-para {
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.test {
+  background-color: #fff3ef;
+  border-radius: 50px;
+}
+
 /* ------ Fonts ------ */
 
 .tilt-warp {
@@ -10,11 +45,36 @@ body {
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "XROT" 0, "YROT" 0;
+  letter-spacing: -3px;
 }
 
-.barlow-regular {
-  font-family: "Barlow", sans-serif;
+.lekton-regular {
+  font-family: "Lekton", serif;
   font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-medium {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-bold-italic {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.shrikhand-regular {
+  font-family: "Shrikhand", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.questrial-regular {
+  font-family: "Questrial", serif;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -118,16 +178,67 @@ body {
   right: 8rem;
 }
 
+/* ------ Marquee ------ */
+
+.marquee {
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); */
+  border: 3px solid rgba(0, 0, 0);
+  background-color: transparent;
+  overflow: hidden;
+  position: relative;
+  height: 75px;
+  width: 100%;
+  /* Full width of its parent */
+  white-space: nowrap;
+  bottom: 25px;
+}
+
+.marquee-img {
+  position: absolute;
+  width: auto;
+  /* background-image: url(../Images/marquee\ banner.png);
+  background-repeat: repeat; */
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  /* Start off the right edge */
+  transform: translateX(100%);
+  /* Animate to the left */
+  animation: scroll-left 20s linear infinite;
+}
+
+.banner {
+  width: 150%;
+}
+
+.banner-hide {
+  display: none;
+  width: 600px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-151%);
+  }
+}
+
 /* ------ Services ------ */
 
-.heading-color {
-  color: black;
-  font-size: 2rem;
+.heading-centre {
+  text-align: center;
 }
 
 .float-background {
   background-color: #fff3ef;
   border-radius: 25px;
+  width: 64%;
+  position: relative;
+  left: 8rem;
   /* margin-right: 20%;
   padding-left: 8%; */
 }
@@ -159,13 +270,17 @@ body {
 
 #break-paragraph {
   background-color: #ffdbcd;
-  background-image: url(../images/Banner_4.png);
+  /* background-image: url(../Video/moving_disco.gif); */
   /* background-repeat: no-repeat; */
   border-radius: 50px;
   margin-top: 3%;
   margin-bottom: 3%;
   position: relative;
   bottom: 3rem;
+}
+
+.video-video {
+  width: 100%;
 }
 
 .inner-border {
@@ -179,7 +294,6 @@ body {
 }
 
 .meal-size {
-  font-size: 2rem;
   color: #fa0c94;
   padding-top: 1.5rem;
   text-align: center;
@@ -250,11 +364,29 @@ body {
   .lower-pics {
     width: 300px;
   }
+  .marquee {
+    height: 87px;
+  }
 }
 
 @media (min-width: 425px) {
   .lower-pics {
     left: 3rem;
+  }
+  .marquee {
+    height: 98px;
+  }
+  .banner {
+    width: 600px;
+  }
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-33.5%);
+    }
   }
 }
 
@@ -324,6 +456,9 @@ body {
   .carousel-control-next-icon {
     height: 10%;
     width: 3.5rem;
+  }
+  .marquee {
+    bottom: 0px;
   }
 }
 
@@ -457,6 +592,18 @@ body {
   }
   #website .lower-pics {
     top: 0rem;
+    right: 0rem;
+    left: -5rem;
+    width: 600px;
+  }
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-25%);
+    }
   }
 }
 

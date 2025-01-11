@@ -53,7 +53,7 @@ $(window).scroll(function () {
 
 var i = 0;
 var txt =
-  "Social Media. Websites. We've got your digital footprint covered, baby!"; /* The text */
+  "Your independent digital design dance partners! Websites. Branding. Showreels. We’ve got you covered, baby!"; /* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {

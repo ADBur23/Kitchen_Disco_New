@@ -257,6 +257,13 @@ section#second-paragraph {
     width: 350px;
     margin-bottom: 1rem;
   }
+  #kdDance {
+    max-width: 75%;
+  }
+  .content {
+    top: 11.5%;
+    width: 65%;
+  }
 }
 
 @media (min-width: 1024px) {

@@ -17,16 +17,27 @@
       href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap"
       rel="stylesheet"
     />
-
     <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./CSS/index.css" />
   </head>
   <body onload="typeWriter()">
-    <header class="tilt-warp">
-      <div class="header-background main-nav">
+    <header class="tilt-warp header-background">
+      <div class="main-nav">
         <div
           class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
         >
@@ -105,7 +116,7 @@
           <div class="col-lg-6 col-sm-6 hero-title mt-3">
             <h1
               id="typeChat"
-              class="display-5 title-color text-body-emphasis lh-1 mb-4 tilt-warp"
+              class="display-5 title-color text-body-emphasis lh-1 mb-4 lekton-regular"
             >
               <!-- Social Media. <br />
               Websites. <br />
@@ -134,18 +145,21 @@
       </div>
     </section>
 
-    <marquee
-      direction="right"
-      behavior="alternate"
-      style="border: black 2px solid"
-      ><img src="./Images/marquee banner.png" alt="" />
-    </marquee>
-
-    <br />
-    <br />
+    <div class="marquee">
+      <div class="marquee-img">
+        <img src="./Images/marquee banner.png" class="banner" alt="" />
+        <img src="./Images/marquee banner.png" class="banner" alt="" />
+        <img src="./Images/marquee banner.png" class="banner" alt="" />
+        <img
+          src="./Images/marquee banner.png"
+          class="banner banner-hide"
+          alt=""
+        />
+      </div>
+    </div>
 
     <section id="about">
-      <div class="container col-xxl-8 px-4 py-4">
+      <div class="container px-4 py-4">
         <div
           class="row flex-lg-row-reverse align-items-center g-5 py-2 about-text"
         >
@@ -157,50 +171,94 @@
               loading="lazy"
             />
           </div>
-          <div class="col-lg-6 au-desc">
-            <h1 class="display-5 fw-bold about-title lh-1 mb-3 tilt-warp">
-              About Us
+          <div class="col-lg-6 au-desc barlow-semi-condensed-medium">
+            <h1 class="about-title lh-1 mb-3 tilt-warp">
+              Hi! We're Kitchen Disco Creative
             </h1>
-            <p class="lead barlow-regular">
-              Hi! We're Kitchen Disco Creative Digital – where standout design
-              meets down-to-earth prices.
+            <h2 class="lh-1 mb-3 questrial-regular">
+              Where dreamy design meets down-to-earth prices.
+            </h2>
+            <span>Describe yourself in 3 words?</span>
+            <p class="shrikhand-regular">Imaginative, original, accessible.</p>
+            <p>
+              Well this isn’t a dating profile but if it were, we would say: We
+              are a supportive, fun loving team who want to see you shine.
             </p>
-            <p class="lead barlow-regular">
-              Born from our years in arts, education, and healthcare, we create
-              websites and brands that make an impact without breaking the bank.
+            <span>Bold and playful design that captures your sparkle?</span>
+            <p class="shrikhand-regular">Hell yeah we can do that!</p>
+            <p>
+              Plus create a welcoming, inspiring experience that will leave you
+              with a smile on your face!
             </p>
-            <p class="lead barlow-regular">
+            <p>...Well I would date us.</p>
+            <!-- <p class="lead barlow-regular">
+              We work with innovative creatives and ambitious small businesses
+              on their websites, branding, and marketing materials. Born from
+              our years in arts, education, and healthcare, what makes KDC
+              singular? Well, we speak your language, so we create websites and
+              brands that make an impact without breaking the bank. No
+              eye-watering invoices – just beautiful digital design, that
+              highlights your individuality and resonates with your dream
+              audience.
+            </p> -->
+            <!-- <p class="lead barlow-regular">
               No fancy jargon or eye-watering invoices – just beautiful digital
               design that works as hard as you do.
-            </p>
-            <h1 class="about-title tilt-warp">
+            </p> -->
+            <h3 class="about-title barlow-semi-condensed-bold-italic">
               Ready to cook up something special?
-            </h1>
-            <p class="lead barlow-regular">
-              Our menu includes websites from £400, branding from £250, and
-              social media packages from £150.
-            </p>
-            <p class="lead barlow-regular">
-              Let's make your digital presence dance!
-            </p>
+            </h3>
+            <p>Take a gander at our menu of services below!</p>
+            <p>Let's make your digital presence dance!</p>
           </div>
         </div>
       </div>
     </section>
+
+    <div class="container col-xxl-8 px-4 py-4 test">
+      <div class="row align-items-center py-2 barlow-regular">
+        <p>
+          We work with innovative creatives and ambitious small businesses on
+          their websites, branding, and marketing materials.
+        </p>
+        <p>Born from our years in arts, education, and healthcare.</p>
+        <span> What makes KDC singular? </span>
+        <p>
+          Well, we speak your language, so we create websites and brands that
+          make an impact without breaking the bank.
+        </p>
+        <h3>No eye-watering invoices</h3>
+        <p>
+          Just beautiful digital design, that highlights your individuality and
+          resonates with your dream audience.
+        </p>
+      </div>
+    </div>
 
     <section id="what-we-offer">
       <div class="container text-center">
         <div class="row offer-desc">
           <div class="col-sm-7 col-md-6 col-lg-4">
             <div class="offer-text tilt-warp">
-              <h2>What we offer</h2>
+              <h1>Our Menu of KDC Services</h1>
             </div>
-            <div class="offer-second-text-two">
-              <h3 class="offer-title tilt-warp">Websites</h3>
-              <p class="barlow-regular">
+            <div class="offer-second-text-two barlow-semi-condensed-medium">
+              <h2 class="offer-title questrial-regular">Websites</h2>
+              <p>
+                We all want a little space to call our own, even on the
+                internet!
+              </p>
+              <p>
                 We can create a website for your dream project or business that
-                will make you stand out in a crowded space. We can also offer
-                ongoing website updates and changes.
+                will make your audience want to keep coming back for more.
+              </p>
+              <p>
+                We work with ground-up coding and Wordpress to cook up your
+                personalised website.
+              </p>
+              <p>
+                Our websites mix sleek functionality and interactive design, to
+                serve up an ideal scrolling experience.
               </p>
             </div>
 
@@ -214,12 +272,35 @@
                   width="300px"
                 />
               </div>
-              <h3 class="offer-title tilt-warp offer-hide">Websites</h3>
-              <p class="barlow-regular offer-hide">
-                We can create a website for your dream project or business that
-                will make you stand out in a crowded space. We can also offer
-                ongoing website updates and changes.
-              </p>
+              <div class="offer-hide barlow-semi-condensed-medium">
+                <h2 class="offer-title questrial-regular">Websites</h2>
+                <p>
+                  We all want a little space to call our own, even on the
+                  internet!
+                </p>
+                <p>
+                  We can create a website for your dream project or business
+                  that will make your audience want to keep coming back for
+                  more.
+                </p>
+                <p>
+                  We work with ground-up coding and Wordpress to cook up your
+                  personalised website.
+                </p>
+                <p>
+                  Our websites mix sleek functionality and interactive design,
+                  to serve up an ideal scrolling experience.
+                </p>
+                <!-- <p class="barlow-regular offer-hide">
+                We all want a little space to call our own, even on the
+                internet! We can create a website for your dream project or
+                business that will make your audience want to keep coming back
+                for more. We work with ground-up coding and Wordpress to cook up
+                your personalised website. Our websites mix sleek functionality
+                and interactive design, to serve up an ideal scrolling
+                experience.
+              </p> -->
+              </div>
             </div>
           </div>
           <div class="col-sm-7 col-md-6 col-lg-4 mt2">
@@ -232,21 +313,37 @@
                 width="300px"
               />
             </div>
-            <div class="offer-first-text card-body">
-              <h3 class="offer-title tilt-warp">Social Media</h3>
-              <p class="barlow-regular">
-                Editing picures for the 'gram, social media strategies, reels,
-                editing videos for Tik Tok, we will make sure you or your
-                product will be at it's best.
+            <div
+              class="offer-first-text card-body barlow-semi-condensed-medium"
+            >
+              <h2 class="offer-title questrial-regular">Digital Branding</h2>
+              <p>We bet you have a banging concept.</p>
+              <p>
+                But do you feel like you are missing that special ingredient to
+                bring your audience to the table?
+              </p>
+              <p>
+                In this online space it can feel like everything looks the same.
+              </p>
+              <p>
+                Our brand design service can help to capture the special ‘spice’
+                that sets you apart.
+              </p>
+              <p>
+                Not only do we concoct your unique visual identity, we give you
+                the whole recipe book of assets and tools to enable you to get
+                started on day one.
               </p>
             </div>
           </div>
           <div class="col-12 col-lg-4">
-            <div class="offer-last-text-hide">
-              <h3 class="offer-title tilt-warp">The Whole Damn Meal</h3>
-              <p class="barlow-regular">
-                You want both Social Media Stategy AND website development, oh
-                boy, yeah, we can do that.
+            <div class="offer-last-text-hide barlow-semi-condensed-medium">
+              <h2 class="offer-title questrial-regular">Extras</h2>
+              <p>
+                Need a little extra on the side? We also specialise in
+                Showreels, as well as creative consultancy chats - a space you
+                can bounce ideas off and get feedback. We have our fingers in a
+                whole bunch of pies.
               </p>
             </div>
             <div class="offer-img-last">
@@ -258,11 +355,13 @@
                 width="320px"
               />
             </div>
-            <div class="offer-last-text">
-              <h3 class="offer-title tilt-warp">The Whole Damn Meal</h3>
-              <p class="barlow-regular">
-                You want both Social Media Stategy AND website development, oh
-                boy, yeah, we can do that.
+            <div class="offer-last-text barlow-semi-condensed-medium">
+              <h2 class="offer-title questrial-regular">Extras</h2>
+              <p>
+                Need a little extra on the side? We also specialise in
+                Showreels, as well as creative consultancy chats - a space you
+                can bounce ideas off and get feedback. We have our fingers in a
+                whole bunch of pies.
               </p>
             </div>
           </div>
@@ -422,11 +521,11 @@
     </section>  -->
     <section id="contact">
       <div class="container pt-5">
-        <div class="p-5 pt-3 mb-4 bg-body-tertiary contact-background">
+        <div class="p-5 py-3 mb-4 bg-body-tertiary contact-background">
           <div class="container-fluid py-3 contact-text barlow-regular">
-            <h1 class="display-5 fw-bold tilt-warp">Contact Us</h1>
-            <p class="col-md-8 fs-4">Ready to Get This Party Started? 🎉</p>
-            <p class="col-md-8 fs-4">
+            <h2 class="oswald-six">Ready to Get This Disco Ball Rolling? 🎉</h2>
+            <!-- <p class="col-md-8 fs-4"></p> -->
+            <!-- <p class="col-md-8 fs-4">
               Drop us a line and let's cook up something amazing together!
             </p>
             <p class="col-md-8 fs-4">Whether you've got a fully-baked idea</p>
@@ -434,17 +533,17 @@
             <p class="col-md-8 fs-4">We're all ears.</p>
             <p class="col-md-8 fs-4">
               📧 hello@kitchendisco.digital <br />📱 01234 567890
-            </p>
+            </p> -->
 
-            <a href="mailto:antburgess@hotmail.co.uk" class="contact-text"
+            <a href="./HTML/contact.html" class="contact-text contact-text-move"
               ><button class="btn btn-about btn-lg" type="button">
-                All hail the email
+                I want to join the party
               </button></a
             >
           </div>
-          <!-- <div class="disco-ball">
-            <img src="./Video/moving_disco.gif" alt="" width="75%" />
-          </div> -->
+          <div class="disco-ball">
+            <img src="./Video/moving_disco.gif" alt="" width="100%" />
+          </div>
         </div>
       </div>
     </section>
