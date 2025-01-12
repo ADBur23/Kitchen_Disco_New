@@ -2,6 +2,28 @@ body {
   background-image: url(../Images/Untitled\ design.png);
 }
 
+h1 {
+  font-size: 2.4rem !important;
+  color: #fa0c94;
+}
+
+h2 {
+  font-size: 1.25rem !important;
+  color: #212553;
+}
+
+h3 {
+  font-size: 1rem !important;
+}
+
+span {
+  font-size: 0.85rem;
+}
+
+p {
+  font-size: 0.85rem !important;
+}
+
 /* ------ Fonts ------ */
 
 .tilt-warp {
@@ -12,9 +34,33 @@ body {
   font-variation-settings: "XROT" 0, "YROT" 0;
 }
 
-.barlow-regular {
-  font-family: "Barlow", sans-serif;
+.lekton-regular {
+  font-family: "Lekton", serif;
   font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-medium {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-bold-italic {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.shrikhand-regular {
+  font-family: "Shrikhand", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.questrial-regular {
+  font-family: "Questrial", serif;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -210,6 +256,25 @@ section#second-paragraph {
   } */
 }
 
+@media (min-width: 425px) {
+  h1 {
+    font-size: 2.9rem !important;
+  }
+  h2 {
+    font-size: 1.75rem !important;
+    color: #212553;
+  }
+  h3 {
+    font-size: 1.5rem !important;
+  }
+  span {
+    font-size: 1.15rem;
+  }
+  p {
+    font-size: 1.15rem !important;
+  }
+}
+
 @media (min-width: 768px) {
   .main-nav {
     display: block;
@@ -227,8 +292,8 @@ section#second-paragraph {
     padding-right: 5%;
   }
   .half-two {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
     padding-top: 2rem;
   }
   .puter-drink {
@@ -263,6 +328,22 @@ section#second-paragraph {
   .content {
     top: 11.5%;
     width: 65%;
+  }
+  h1 {
+    font-size: 3.5rem !important;
+  }
+  h2 {
+    font-size: 2.2rem !important;
+    color: #212553;
+  }
+  h3 {
+    font-size: 2rem !important;
+  }
+  span {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 1.2rem !important;
   }
 }
 

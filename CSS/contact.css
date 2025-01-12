@@ -124,7 +124,7 @@ p {
 
 .logo-hover {
   display: flex;
-  width: 110px;
+  width: 100px;
   height: 75px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -256,13 +256,26 @@ p {
 @media (min-width: 768px) {
   .main-nav {
     display: block;
+    position: fixed;
+    z-index: 1;
+    width: -webkit-fill-available;
+  }
+  .header-background {
+    position: fixed;
+    height: 72.5px;
+    width: -webkit-fill-available;
+    z-index: 1;
   }
   .hidden-nav {
     display: none;
   }
   .logo-hover {
-    top: -2px;
+    top: 1px;
     right: 182px;
+  }
+  #get-to-kno {
+    position: relative;
+    top: 5rem;
   }
   .insta-head,
   .tt-head,
@@ -286,6 +299,9 @@ p {
 }
 
 @media (min-width: 992px) {
+  /* .header-background {
+    height: 85.5px;
+  } */
   .logo-button {
     width: 27%;
     height: 67px;
@@ -358,6 +374,9 @@ p {
   }
   .top-btn-disp {
     left: 33rem;
+  }
+  .logo-button {
+    width: 61%;
   }
 }
 

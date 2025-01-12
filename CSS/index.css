@@ -99,11 +99,11 @@ p {
 }
 
 .nav-text:hover {
-  color: black;
+  color: #def984;
 }
 
 .nav {
-  --bs-nav-link-hover-color: black;
+  --bs-nav-link-hover-color: #def984;
 }
 
 .location-text {
@@ -625,7 +625,6 @@ p {
   }
   .main-nav {
     display: block;
-    display: block;
     position: fixed;
     z-index: 1;
     width: -webkit-fill-available;
@@ -773,8 +772,8 @@ p {
     top: 10.75rem;
   }
   .logo-button {
-    width: 43%;
-    height: 80px;
+    width: 27%;
+    height: 67px;
   }
   .hero-img {
     padding-left: 48px !important;
@@ -790,13 +789,16 @@ p {
     left: 0.5rem;
   }
   .logo-hover {
-    right: -15px;
-    width: 120px;
-    top: 5.7px;
+    right: 4px;
+    /* width: 120px;
+    top: 5.7px; */
+  }
+  .location-text,
+  .nav-text {
+    font-size: 1.7rem;
   }
   .hero-button {
     padding-left: 25%;
-
     top: 0rem;
   }
   .ant-bex {
@@ -853,7 +855,11 @@ p {
     top: 13.75rem;
   }
   .logo-button {
-    width: 65%;
+    width: 57%;
+  }
+  .logo-hover {
+    right: -7px;
+    width: 113px;
   }
   /* .logo-hover {
     display: flex;
