@@ -345,6 +345,10 @@ section#second-paragraph {
   p {
     font-size: 1.2rem !important;
   }
+  .nav-text,
+  .location-text {
+    margin-top: 1rem;
+  }
 }
 
 @media (min-width: 1024px) {

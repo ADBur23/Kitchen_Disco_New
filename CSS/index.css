@@ -595,6 +595,26 @@ p {
 }
 
 @media (min-width: 576px) {
+  .main-nav {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    width: -webkit-fill-available;
+  }
+  .header-background {
+    position: fixed;
+    height: 72.5px;
+    width: -webkit-fill-available;
+    z-index: 1;
+    top: 0rem;
+  }
+  .hidden-nav {
+    display: none;
+  }
+  .logo-hover {
+    top: 1px;
+    right: 128px;
+  }
   .show-off-button {
     left: 3.75rem;
     top: 8.75rem;
@@ -613,7 +633,7 @@ p {
 }
 
 @media (min-width: 768px) {
-  .header-background {
+  /* .header-background {
     position: fixed;
     height: 72.5px;
     width: -webkit-fill-available;
@@ -631,6 +651,15 @@ p {
   }
   .hidden-nav {
     display: none;
+  } */
+
+  .nav-text,
+  .location-text {
+    font-size: 1.3rem;
+  }
+  .logo-hover {
+    top: 1px;
+    right: 182px;
   }
 
   .hero-button {
@@ -750,6 +779,19 @@ p {
   .header-background {
     height: 85.5px;
   }
+  .logo-button {
+    width: 27%;
+    height: 67px;
+  }
+  .logo-hover {
+    right: 0px;
+    top: 6px;
+    width: 110px;
+  }
+  .location-text,
+  .nav-text {
+    font-size: 1.7rem;
+  }
   .mx-lg-auto {
     margin-right: auto !important;
     margin-left: none !important;
@@ -837,9 +879,25 @@ p {
   .disco-ball {
     left: 14.5rem;
   }
+  .nav-text,
+  .location-text {
+    margin-top: 1rem;
+  }
 }
 
 @media (min-width: 1024px) {
+  .logo-hover {
+    right: -1px;
+  }
+  .float-background {
+    /* background-color: #fff3ef;
+    border-radius: 25px; */
+    width: 64%;
+    /* position: relative; */
+    left: 8rem;
+    /* margin-right: 20%;
+    padding-left: 8%; */
+  }
   /* .logo-hover {
     right: -15px;
   } */
@@ -850,17 +908,21 @@ p {
 }
 
 @media (min-width: 1200px) {
+  .logo-button {
+    width: 55%;
+    height: 67px;
+  }
   .show-off-button {
     left: 5.5rem;
     top: 13.75rem;
   }
-  .logo-button {
+  /* .logo-button {
     width: 57%;
   }
   .logo-hover {
     right: -7px;
     width: 113px;
-  }
+  } */
   /* .logo-hover {
     display: flex;
     width: 100px;
@@ -869,6 +931,9 @@ p {
 }
 
 @media (min-width: 1400px) {
+  .logo-button {
+    width: 61%;
+  }
   .show-off-button {
     left: 6.5rem;
     top: 16.75rem;
@@ -900,6 +965,12 @@ p {
 }
 
 @media (max-width: 576px) {
+  .main-nav {
+    display: none;
+  }
+  .hidden-nav {
+    display: flex;
+  }
   .container #show-off-grid {
     display: flex;
     flex-direction: column;
@@ -927,15 +998,19 @@ p {
   /* #typeChat {
     font-size: 1.5rem;
   } */
-  .main-nav {
+  /* .main-nav {
     display: none;
   }
   .hidden-nav {
     display: flex;
-  }
+  } */
 }
 
 @media (max-width: 991px) {
+  .logo-button {
+    width: 0%;
+    height: 67px;
+  }
   .show-off-show {
     display: none;
   }

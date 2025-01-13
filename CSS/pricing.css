@@ -147,13 +147,13 @@ ul {
 }
 
 .carousel-imgs {
-  height: 300px;
+  height: 250px;
   max-height: 600px;
 }
 
 .web-pic {
   position: relative;
-  right: 7rem;
+  right: 5rem;
 }
 
 .carousel-caption {
@@ -174,17 +174,17 @@ ul {
 
 .social-pic {
   position: relative;
-  right: 6rem;
+  right: 5rem;
 }
 
 .everything-big {
   position: relative;
-  right: 8rem;
+  right: 5rem;
 }
 
 .extras-big {
   position: relative;
-  right: 8rem;
+  right: 6.5rem;
 }
 
 /* ------ Marquee ------ */
@@ -300,7 +300,7 @@ ul {
 }
 
 .lower-pics3 {
-  bottom: 3.5rem;
+  bottom: 2rem;
 }
 
 .social-selling {
@@ -352,6 +352,10 @@ ul {
 .pricing-text {
   font-size: 1rem;
   text-align: center;
+}
+
+.cont-extras {
+  margin-top: -1rem;
 }
 
 .everything-sml {
@@ -425,6 +429,9 @@ ul {
   .lower-pics3 {
     left: 3rem;
   }
+  .extras-big {
+    right: 4.5rem;
+  }
 }
 
 @media (min-width: 425px) {
@@ -471,26 +478,26 @@ ul {
   }
   .everything-big,
   .web-pic {
-    right: 5rem;
+    right: 3rem;
   }
   .social-pic {
-    right: 4rem;
+    right: 2rem;
   }
   .extras-big {
-    right: 6rem;
+    right: 3rem;
   }
 }
 
 @media (min-width: 500px) {
-  .everything-big,
   .web-pic {
-    right: 4rem;
+    right: 1rem;
   }
-  .social-pic {
-    right: 2.5rem;
+  .social-pic,
+  .everything-big {
+    right: 0rem;
   }
   .extras-big {
-    right: 4rem;
+    right: 1rem;
   }
 }
 
@@ -539,6 +546,14 @@ ul {
   }
   .float-background2 {
     left: -2rem;
+  }
+  .web-pic,
+  .extras-big {
+    right: 0rem;
+  }
+  .social-pic,
+  .everything-big {
+    right: -1rem;
   }
 }
 
@@ -649,7 +664,7 @@ ul {
   }
   .float-background2 {
     left: -2rem;
-    width: 120%;
+    width: 115%;
   }
   .extras {
     padding-left: 1.5rem;
@@ -664,6 +679,17 @@ ul {
   }
   .lower-pics3 {
     width: 300px;
+  }
+  #extras h2 {
+    position: relative;
+    left: 10rem;
+  }
+  #extras .selling-para {
+    position: relative;
+    left: 10rem;
+  }
+  .cont-extras {
+    margin-top: 1rem;
   }
 }
 
@@ -751,6 +777,10 @@ ul {
   .float-background {
     left: 1.5rem;
   }
+  .float-background1 {
+    width: 125%;
+    left: 14rem;
+  }
   .inner-border {
     position: relative;
     left: 3rem;
@@ -773,9 +803,21 @@ ul {
     padding-right: 5rem;
   }
   .lower-pics3 {
-    left: 1rem;
-    top: 25rem;
-    width: 388px;
+    left: 2rem;
+    top: 28rem;
+    width: 375px;
+  }
+  #extras h2 {
+    position: relative;
+    left: 13rem;
+  }
+  #extras .selling-para {
+    position: relative;
+    left: 12rem;
+  }
+  .nav-text,
+  .location-text {
+    margin-top: 1rem;
   }
 }
 
@@ -841,6 +883,15 @@ ul {
     top: 26rem;
     width: 400px;
   }
+  .float-background1 {
+    width: 121%;
+  }
+  #extras h2 {
+    left: 14rem;
+  }
+  #extras .selling-para {
+    left: 14rem;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -893,8 +944,19 @@ ul {
     width: 500px;
   }
   .lower-pics3 {
-    top: 23rem;
-    width: 450px;
+    top: 26rem;
+    width: 414px;
+    left: 5rem;
+  }
+  .float-background1 {
+    width: 105%;
+    left: 15rem;
+  }
+  #extras h2 {
+    left: 17rem;
+  }
+  #extras .selling-para {
+    left: 17rem;
   }
 }
 
