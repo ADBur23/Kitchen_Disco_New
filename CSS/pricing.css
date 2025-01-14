@@ -516,7 +516,7 @@ ul {
     position: fixed;
     height: 72.5px;
     width: -webkit-fill-available;
-    z-index: 1;
+    z-index: 3;
     top: 0rem;
   }
   .hidden-nav {

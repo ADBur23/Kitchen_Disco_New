@@ -170,6 +170,7 @@ p {
   position: relative;
   left: 3rem;
   text-decoration: none;
+  width: 256px;
 }
 
 @media (min-width: 425px) {
@@ -212,13 +213,13 @@ p {
     top: 1px;
     right: 128px;
   }
-}
-
-@media (min-width: 768px) {
   .container {
     position: relative;
     top: 5rem;
   }
+}
+
+@media (min-width: 768px) {
   /* .main-nav {
     display: block;
     position: fixed;

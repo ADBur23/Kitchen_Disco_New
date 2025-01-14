@@ -295,6 +295,9 @@ section#second-paragraph {
 }
 
 @media (min-width: 576px) {
+  section#hero {
+    margin-top: 5rem;
+  }
   .main-nav {
     display: block;
     position: fixed;
