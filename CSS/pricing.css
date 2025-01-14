@@ -84,6 +84,10 @@ ul {
   border: 3px solid #000000;
 }
 
+.nav-item {
+  margin-left: 0.5rem;
+}
+
 .nav-text {
   color: #fa0c94;
   font-size: 1rem;
@@ -925,6 +929,9 @@ ul {
     right: 0rem;
     left: -5rem;
     width: 600px;
+  }
+  .banner-hide {
+    display: inline-block;
   }
   @keyframes scroll-left {
     0% {

@@ -99,12 +99,16 @@ p {
 }
 .nav-text {
   color: #fa0c94;
-  font-size: 1.3rem;
+  font-size: 1rem;
   filter: drop-shadow(3px 2px 2px black);
 }
 
 .nav-text:hover {
   color: #def984;
+}
+
+.nav-item {
+  margin-left: 0.5rem;
 }
 
 .nav {
@@ -113,7 +117,7 @@ p {
 
 .location-text {
   color: #fff3ef9c;
-  font-size: 1.3rem;
+  font-size: 1rem;
   filter: drop-shadow(3px 2px 2px black);
 }
 

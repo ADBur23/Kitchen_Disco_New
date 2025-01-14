@@ -24,6 +24,11 @@ p {
   font-size: 0.85rem !important;
 }
 
+.test {
+  background-color: #fff3ef;
+  border-radius: 50px;
+}
+
 /* ------ Fonts ------ */
 
 .tilt-warp {
@@ -77,8 +82,12 @@ p {
 
 .nav-text {
   color: #fa0c94;
-  font-size: 1.3rem;
+  font-size: 1rem;
   filter: drop-shadow(3px 2px 2px black);
+}
+
+.nav-item {
+  margin-left: 0.5rem;
 }
 
 .nav-text:hover {
@@ -91,7 +100,7 @@ p {
 
 .location-text {
   color: #fff3ef9c;
-  font-size: 1.3rem;
+  font-size: 1rem;
   filter: drop-shadow(3px 2px 2px black);
 }
 
@@ -141,6 +150,26 @@ p {
 .off-white-background {
   background-color: #ffdbcd;
   border-radius: 25px;
+}
+
+.btn-email {
+  background-color: #fa0c94;
+  color: #11ddac;
+  box-shadow: 3px 3px 2px 2px #686860b3;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.btn-email:hover {
+  background-color: #060606;
+  color: #fa0c94;
+}
+
+.top-btn-mob {
+  display: inline-block;
+  position: relative;
+  left: 3rem;
+  text-decoration: none;
 }
 
 @media (min-width: 425px) {
