@@ -278,6 +278,10 @@ p {
     top: 1px;
     right: 128px;
   }
+  #get-to-kno {
+    position: relative;
+    top: 5rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -304,10 +308,7 @@ p {
     top: 1px;
     right: 182px;
   }
-  #get-to-kno {
-    position: relative;
-    top: 5rem;
-  }
+
   .insta-head,
   .tt-head,
   .tt-ad,
@@ -320,7 +321,7 @@ p {
   .top-btn-disp {
     display: inline-block;
     position: relative;
-    left: 21rem;
+    left: 15rem;
     text-decoration: none;
   }
   .email-inner {
@@ -376,6 +377,9 @@ p {
   .location-text {
     margin-top: 1rem;
   }
+  .top-btn-disp {
+    left: 22rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -396,7 +400,7 @@ p {
     margin-bottom: 30px;
   }
   .top-btn-disp {
-    left: 28rem;
+    left: 27rem;
   }
 }
 

@@ -2,6 +2,10 @@ body {
   background-image: url(../Images/Untitled\ design.png);
 }
 
+#faqs-page {
+  margin-top: 1rem;
+}
+
 h1 {
   font-size: 2.4rem !important;
   color: #fa0c94;
@@ -129,6 +133,36 @@ p {
   color: #fa0c94;
 }
 
+.party-pix {
+  display: flex;
+}
+
+/* .antnbex {
+  position: relative;
+  width: 50%;
+  transform: scaleX(-1);
+/* } */
+
+.antnbex2 {
+  position: relative;
+  width: 50%;
+  transform: scaleX(-1);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+/* .antnbex3 {
+  position: relative;
+  width: 50%;
+  transform: scaleX(-1);
+  transform: rotate(180deg);
+} */
+
+.antnbex4 {
+  position: relative;
+  width: 50%;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
 .white-background,
 .white-background-change {
   background-color: #fff3ef;
@@ -150,6 +184,7 @@ p {
 .off-white-background {
   background-color: #ffdbcd;
   border-radius: 25px;
+  height: 209px;
 }
 
 .btn-email {
@@ -173,6 +208,12 @@ p {
   width: 256px;
 }
 
+@media (min-width: 375px) {
+  .off-white-background {
+    height: 231px;
+  }
+}
+
 @media (min-width: 425px) {
   h1 {
     font-size: 2.9rem !important;
@@ -192,6 +233,9 @@ p {
   }
   .top-btn-mob {
     left: 4rem;
+  }
+  .off-white-background {
+    height: 269px;
   }
 }
 
@@ -223,6 +267,9 @@ p {
   .top-btn-mob {
     left: 8rem;
   }
+  .off-white-background {
+    height: 313px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -250,6 +297,13 @@ p {
     top: 1px;
     right: 182px;
   }
+  .off-white-background {
+    height: 404px;
+  }
+  .FAQ-title {
+    position: relative;
+    top: 6rem;
+  }
   .white-background-change {
     background-color: #fa0c94;
     color: #fff3ef;
@@ -267,6 +321,9 @@ p {
 }
 
 @media (min-width: 992px) {
+  #faqs-page {
+    margin-top: 3rem;
+  }
   .header-background {
     height: 85.5px;
   }
@@ -306,6 +363,13 @@ p {
   .top-btn-mob {
     left: 21rem;
   }
+  .off-white-background {
+    height: 458px;
+  }
+  .party-pix {
+    position: relative;
+    bottom: 4rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -339,6 +403,9 @@ p {
   }
   .top-btn-mob {
     left: 20rem;
+  }
+  .off-white-background {
+    height: 565px;
   }
 }
 

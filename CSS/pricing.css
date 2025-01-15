@@ -28,8 +28,14 @@ ul {
   padding-left: 1.5rem;
 }
 
-.test {
-  background-color: #fff3ef;
+.title {
+  background-color: #def984;
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  background-color: #ffdbcd;
   border-radius: 50px;
 }
 
@@ -271,11 +277,13 @@ ul {
 .float-background1 {
   left: 2rem;
   margin-bottom: 1rem;
+  background-color: #def984;
 }
 
 .float-background2 {
   left: -1rem;
   margin-bottom: 1rem;
+  background-color: #ffdbcd;
   /* bottom: 1rem; */
 }
 
@@ -594,6 +602,9 @@ ul {
   .lower-pics {
     left: 0rem;
     bottom: 0.5rem;
+  }
+  .carousel-h2 {
+    font-size: 3rem !important;
   }
   .second-banner {
     bottom: 0rem;
