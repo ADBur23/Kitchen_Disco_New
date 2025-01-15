@@ -168,7 +168,7 @@ p {
 .top-btn-mob {
   display: inline-block;
   position: relative;
-  left: 3rem;
+  left: 1rem;
   text-decoration: none;
   width: 256px;
 }
@@ -189,6 +189,9 @@ p {
   }
   p {
     font-size: 1.15rem !important;
+  }
+  .top-btn-mob {
+    left: 4rem;
   }
 }
 
@@ -216,6 +219,9 @@ p {
   .container {
     position: relative;
     top: 5rem;
+  }
+  .top-btn-mob {
+    left: 8rem;
   }
 }
 
@@ -254,6 +260,9 @@ p {
     background-color: #fff3ef;
     border-radius: 25px;
     color: black;
+  }
+  .top-btn-mob {
+    left: 14rem;
   }
 }
 
@@ -294,6 +303,9 @@ p {
   .location-text {
     margin-top: 1rem;
   }
+  .top-btn-mob {
+    left: 21rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -316,11 +328,17 @@ p {
     width: 55%;
     height: 67px;
   }
+  .top-btn-mob {
+    left: 27rem;
+  }
 }
 
 @media (min-width: 1400px) {
   .logo-button {
     width: 61%;
+  }
+  .top-btn-mob {
+    left: 20rem;
   }
 }
 
