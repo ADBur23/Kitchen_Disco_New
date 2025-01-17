@@ -187,6 +187,10 @@ section#first-paragraph {
   margin-top: 2rem !important;
 }
 
+.low-margin {
+  margin-top: 1rem;
+}
+
 /* ------  ------ */
 
 section#second-paragraph {
@@ -308,7 +312,7 @@ section#second-paragraph {
     color: #212553;
   }
   h3 {
-    font-size: 1.5rem !important;
+    font-size: 1.3rem !important;
   }
   span {
     font-size: 1.15rem;
@@ -386,6 +390,13 @@ section#second-paragraph {
   .location-text {
     font-size: 1.3rem;
   }
+  .ant-bex {
+    position: relative;
+    right: 2rem;
+  }
+  #first-paragraph .img-fluid {
+    max-width: 135%;
+  }
   .half-one {
     margin-right: 0%;
     padding-left: 5%;
@@ -409,9 +420,9 @@ section#second-paragraph {
   .daft-chef {
     margin-left: 0rem;
   }
-  .ant-bex {
+  /* .ant-bex {
     margin-left: 4rem;
-  }
+  } */
   .info-margin-top {
     margin-top: 0rem;
   }
@@ -441,9 +452,13 @@ section#second-paragraph {
   .nav-text {
     font-size: 1.7rem;
   }
+  #first-paragraph .img-fluid {
+    max-width: 100%;
+  }
   .ant-bex {
-    width: 350px;
+    width: 450px;
     margin-bottom: 1rem;
+    right: 0rem;
   }
   #kdDance {
     max-width: 75%;
