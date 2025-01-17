@@ -19,6 +19,16 @@ section#about {
   text-align: center;
 }
 
+.title {
+  background-color: #def984;
+  /* border-radius: 50px; */
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
 section#what-we-offer {
   background-image: url(../Images/Untitled\ design.png);
 }
@@ -178,15 +188,16 @@ p {
   max-width: 118%;
 }
 
-.btn-about {
-  background-color: #fa0c94;
-  color: #11ddac;
+.btn-about,
+.btn-about-link {
+  background-color: #212553;
+  color: #fa0c94;
   box-shadow: 3px 3px 2px 2px #686860b3;
   font-size: 0.9rem;
 }
 
 .btn-about:hover {
-  background-color: #060606;
+  background-color: #def984;
   color: #fa0c94;
 }
 
@@ -260,7 +271,7 @@ p {
 /* ------ About ------ */
 
 .about-text {
-  color: #000000;
+  text-align: center;
 }
 
 .about-title {
@@ -268,6 +279,11 @@ p {
   /* display: flex;
   justify-content: center; */
   text-align: center;
+  margin-top: 3rem;
+}
+
+.little-title {
+  color: #fa0c94;
 }
 
 .ant-bex {
@@ -287,8 +303,18 @@ p {
   box-shadow: 3px 3px 2px 2px #686860b3;
 }
 
+.au-desc {
+  text-align: center;
+  margin-top: 1rem;
+}
+
 .au-div {
   padding-left: 0% !important;
+  margin-top: 0rem;
+}
+
+.btn-about-link {
+  margin-bottom: 1rem;
 }
 
 /* ------ What we offer ------ */
@@ -309,6 +335,10 @@ p {
 
   display: flex;
   justify-content: center;
+}
+
+.btn-desk {
+  display: none;
 }
 
 .offer-img {
@@ -548,9 +578,9 @@ p {
 }
 
 @media (min-width: 375px) {
-  .au-div {
+  /* .au-div {
     padding-left: 5% !important;
-  }
+  } */
   .marquee {
     height: 87px;
   }
@@ -574,9 +604,9 @@ p {
   #typeChat {
     font-size: 1.3rem !important;
   }
-  .au-div {
+  /* .au-div {
     padding-left: 8% !important;
-  }
+  } */
   .marquee {
     height: 98px;
   }
@@ -603,7 +633,7 @@ p {
     color: #212553;
   }
   h3 {
-    font-size: 1.5rem !important;
+    font-size: 1.3rem !important;
   }
   span {
     font-size: 1.15rem;
@@ -752,11 +782,14 @@ p {
     left: 3.5rem;
     width: 45%;
   }
+  .about-title {
+    margin-top: 4rem;
+  }
   .img-fluid {
     max-width: 550px;
   }
   .offer-text {
-    margin-top: 4.5rem;
+    margin-top: 1.5rem;
     margin-bottom: 3rem;
   }
   .offer-second-text-two {
@@ -804,9 +837,9 @@ p {
     top: 1px;
     right: 185px;
   } */
-  .au-div {
+  /* .au-div {
     padding-left: 9% !important;
-  }
+  } */
   /* .banner {
     width: 83%;
   }
@@ -829,7 +862,8 @@ p {
   }
 
   .btn-about,
-  .btn-services {
+  .btn-services,
+  .btn-about-link {
     font-size: 1.3rem;
   }
   .marquee {
@@ -925,8 +959,18 @@ p {
   .ant-bex {
     width: 350px;
   }
-  .au-div {
+  /* .au-div {
     padding-left: 0% !important;
+  } */
+  .btn-desk {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    z-index: 1;
   }
   .offer-last-text {
     display: none;
@@ -936,25 +980,28 @@ p {
   .offer-last-text-hide {
     display: flex;
     flex-direction: column;
-    margin-top: 13rem;
+    margin-top: 17rem;
     margin-bottom: 1rem;
+  }
+  .test {
+    margin-top: 2rem;
   }
   h1 {
     font-size: 3.5rem !important;
   }
-  h2 {
+  /* h2 {
     font-size: 2.2rem !important;
     color: #212553;
-  }
-  h3 {
+  } */
+  /* h3 {
     font-size: 2rem !important;
-  }
-  span {
+  } */
+  /* span {
     font-size: 1.4rem;
   }
   p {
     font-size: 1.4rem !important;
-  }
+  } */
   .disco-ball {
     left: 14.5rem;
     width: 370px;
@@ -1007,6 +1054,10 @@ p {
   .disco-ball {
     left: 20rem;
   }
+  .au-desc {
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -1029,6 +1080,10 @@ p {
   .ant-bex {
     width: 400px;
   }
+  .offer-last-text-hide {
+    margin-top: 15rem;
+  }
+
   .banner-hide {
     display: inline-block;
   }
@@ -1086,6 +1141,10 @@ p {
   .hidden-nav {
     display: flex;
   } */
+  .au-desc {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
 }
 
 @media (max-width: 991px) {
@@ -1110,10 +1169,7 @@ p {
   /* .au-div {
     padding-left: 5% !important;
   } */
-  .au-desc {
-    padding-left: 5% !important;
-    padding-right: 5% !important;
-  }
+
   /* #typeChat {
     font-size: 1.8rem;
   } */
@@ -1136,8 +1192,8 @@ p {
 }
 
 @media (max-width: 1400px) {
-  .col-lg-6 {
+  /* .col-lg-6 {
     padding-right: 0px;
     padding-left: 48px;
-  }
+  } */
 }

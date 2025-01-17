@@ -160,7 +160,7 @@ p {
 
 .btn-email {
   background-color: #fa0c94;
-  color: #11ddac;
+  color: #212553;
   box-shadow: 3px 3px 2px 2px #686860b3;
   margin-bottom: 1rem;
   font-size: 1.1rem;
@@ -174,7 +174,7 @@ p {
 .top-btn-mob {
   display: inline-block;
   position: relative;
-  left: 3rem;
+  /* left: 3rem; */
   text-decoration: none;
 }
 
@@ -218,9 +218,9 @@ p {
   .insta-ad {
     margin-left: 10px;
   }
-  .top-btn-mob {
+  /* .top-btn-mob {
     left: 5rem;
-  }
+  } */
 }
 
 @media (min-width: 425px) {
@@ -232,7 +232,7 @@ p {
     color: #212553;
   }
   h3 {
-    font-size: 1.5rem !important;
+    font-size: 1.3rem !important;
   }
   span {
     font-size: 1.15rem;
@@ -240,21 +240,21 @@ p {
   p {
     font-size: 1.15rem !important;
   }
-  .top-btn-mob {
+  /* .top-btn-mob {
     left: 7rem;
-  }
+  } */
 }
 
 @media (min-width: 470px) {
-  .top-btn-mob {
+  /* .top-btn-mob {
     left: 8rem;
-  }
+  } */
 }
 
 @media (min-width: 500px) {
-  .top-btn-mob {
+  /* .top-btn-mob {
     left: 10rem;
-  }
+  } */
 }
 
 @media (min-width: 576px) {
@@ -321,7 +321,7 @@ p {
   .top-btn-disp {
     display: inline-block;
     position: relative;
-    left: 15rem;
+    /* left: 15rem; */
     text-decoration: none;
   }
   .email-inner {
@@ -353,19 +353,19 @@ p {
   h1 {
     font-size: 3.5rem !important;
   }
-  h2 {
+  /* h2 {
     font-size: 2.2rem !important;
     color: #212553;
   }
   h3 {
-    font-size: 2rem !important;
+    font-size: 1.7rem !important;
   }
   span {
     font-size: 1.4rem;
   }
   p {
     font-size: 1.4rem !important;
-  }
+  } */
   .btn-email {
     font-size: 1.5rem;
   }
@@ -377,9 +377,9 @@ p {
   .location-text {
     margin-top: 1rem;
   }
-  .top-btn-disp {
+  /* .top-btn-disp {
     left: 22rem;
-  }
+  } */
 }
 
 @media (min-width: 1024px) {
@@ -399,9 +399,9 @@ p {
   .insta-ad {
     margin-bottom: 30px;
   }
-  .top-btn-disp {
+  /* .top-btn-disp {
     left: 27rem;
-  }
+  } */
 }
 
 @media (min-width: 1400px) {
@@ -420,9 +420,9 @@ p {
   .btn-email {
     font-size: 1.7rem;
   }
-  .top-btn-disp {
+  /* .top-btn-disp {
     left: 33rem;
-  }
+  } */
   .logo-button {
     width: 61%;
   }

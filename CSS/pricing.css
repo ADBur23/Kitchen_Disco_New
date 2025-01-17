@@ -30,13 +30,18 @@ ul {
 
 .title {
   background-color: #fff3ef;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   margin-bottom: 1rem;
+}
+
+.title-shadow {
+  filter: drop-shadow(3px 2px 2px black);
 }
 
 .intro {
   background-color: #ffdbcd;
   border-radius: 50px;
+  text-align: center;
 }
 
 /* ------ Fonts ------ */
@@ -173,6 +178,8 @@ ul {
 .carousel-h2 {
   position: relative;
   top: 0.4rem;
+  color: #fff3ef;
+  filter: drop-shadow(3px 2px 2px black);
 }
 
 /* .social-title {
@@ -194,7 +201,7 @@ ul {
 
 .extras-big {
   position: relative;
-  right: 6.5rem;
+  right: 4.5rem;
 }
 
 /* ------ Marquee ------ */
@@ -211,7 +218,7 @@ ul {
   width: 100%;
   /* Full width of its parent */
   white-space: nowrap;
-  bottom: 40px;
+  bottom: 2rem;
 }
 
 .marquee-img {
@@ -303,8 +310,8 @@ ul {
   width: 250px;
 
   position: relative;
-  bottom: 2.5rem;
-  left: 1.75rem;
+  bottom: 2rem;
+  left: 1.4rem;
 }
 
 .lower-pics2 {
@@ -323,7 +330,8 @@ ul {
 }
 
 #socials {
-  margin-top: 3%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 #break-paragraph {
@@ -331,8 +339,8 @@ ul {
   /* background-image: url(../Video/moving_disco.gif); */
   /* background-repeat: no-repeat; */
   border-radius: 50px;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   position: relative;
   bottom: 1.5rem;
 }
@@ -367,7 +375,7 @@ ul {
 }
 
 .cont-extras {
-  margin-top: -1rem;
+  margin-top: 0rem;
 }
 
 .everything-sml {
@@ -420,13 +428,35 @@ ul {
   color: #fff3ef;
 }
 
+.title {
+  background-color: #fff3ef;
+  filter: none;
+  /* border-radius: 50px; */
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.contact-text {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
 /* .web-title {
   color: #fff3ef;
 } */
 
 .btn-pricing {
-  background-color: #fa0c94;
-  color: #11ddac;
+  background-color: #212553;
+  color: #fa0c94;
   box-shadow: 3px 3px 2px 2px #686860b3;
 }
 
@@ -441,8 +471,14 @@ ul {
   .lower-pics3 {
     left: 3rem;
   }
+  .web-pic {
+    right: 4rem;
+  }
+  .social-pic {
+    right: 3rem;
+  }
   .extras-big {
-    right: 4.5rem;
+    right: 2.5rem;
   }
 }
 
@@ -455,7 +491,7 @@ ul {
     color: #212553;
   }
   h3 {
-    font-size: 1.5rem !important;
+    font-size: 1.3rem !important;
   }
   span {
     font-size: 1.15rem;
@@ -496,7 +532,7 @@ ul {
     right: 2rem;
   }
   .extras-big {
-    right: 3rem;
+    right: 1rem;
   }
 }
 
@@ -547,7 +583,7 @@ ul {
     right: 128px;
   }
   .lower-pics {
-    bottom: 1.5rem;
+    bottom: 2rem;
   }
   #pricing {
     position: relative;
@@ -561,7 +597,7 @@ ul {
   }
   .web-pic,
   .extras-big {
-    right: 0rem;
+    right: -1rem;
   }
   .social-pic,
   .everything-big {
@@ -599,6 +635,9 @@ ul {
     top: 1px;
     right: 182px;
   }
+  .btn-pricing {
+    font-size: 1.3rem;
+  }
   .lower-pics {
     left: 0rem;
     bottom: 0.5rem;
@@ -620,7 +659,7 @@ ul {
     margin-right: 0.5%;
   }
   .everything-sml {
-    left: 170px;
+    left: 131px;
   }
   #extras {
     bottom: 0rem;
@@ -662,15 +701,17 @@ ul {
     bottom: 0px;
   }
   .everything-big,
-  .web-pic,
-  .extras-big {
+  .web-pic {
     right: 6rem;
+  }
+  .extras-big {
+    right: 2rem;
   }
   .social-pic {
     right: 4.5rem;
   }
   .lower-pics3 {
-    left: 0rem;
+    left: 1rem;
     top: 26rem;
   }
   .float-background1 {
@@ -688,8 +729,11 @@ ul {
     width: 312px;
     left: -2rem;
   }
+  #socials {
+    margin-top: 2rem;
+  }
   .lower-pics2 {
-    left: -2rem;
+    left: -3rem;
     top: 5rem;
   }
   .lower-pics3 {
@@ -726,9 +770,9 @@ ul {
     font-size: 1.7rem;
   }
   h1 {
-    font-size: 3.5rem !important;
+    font-size: 4rem !important;
   }
-  h2 {
+  /* h2 {
     font-size: 2.2rem !important;
     color: #212553;
   }
@@ -740,7 +784,7 @@ ul {
   }
   p {
     font-size: 1.4rem !important;
-  }
+  } */
   .everything-sml {
     left: 0px;
     margin-top: 2rem;
@@ -749,7 +793,7 @@ ul {
     width: 400px;
   }
   #website .lower-pics {
-    top: 4rem;
+    top: 2rem;
   }
   #socials .lower-pics {
     top: 0rem;
@@ -778,7 +822,7 @@ ul {
     margin-top: 2.5rem;
   }
   .web-pic {
-    right: 0rem;
+    right: -2rem;
   }
   .social-pic,
   .everything-big {
@@ -802,7 +846,7 @@ ul {
   }
 
   .extras-big {
-    right: -1rem;
+    right: -4rem;
   }
   .carousel-control-prev-icon {
     height: 20%;
@@ -818,9 +862,9 @@ ul {
     padding-right: 5rem;
   }
   .lower-pics3 {
-    left: 2rem;
-    top: 28rem;
-    width: 375px;
+    left: 3rem;
+    top: 21rem;
+    width: 362px;
   }
   #extras h2 {
     position: relative;
@@ -845,9 +889,15 @@ ul {
     border-radius: 25px; */
     width: 64%;
     /* position: relative; */
-    left: 8rem;
+    left: 6rem;
     /* margin-right: 20%;
     padding-left: 8%; */
+  }
+  .lower-pics {
+    left: -3rem;
+  }
+  .lower-pics2 {
+    left: -0.5rem;
   }
 }
 
@@ -863,6 +913,9 @@ ul {
   .pricing-size,
   .pricing-text {
     font-size: 2rem;
+  }
+  #website .lower-pics {
+    top: 0rem;
   }
   .lower-pics {
     width: 480px;
@@ -930,16 +983,23 @@ ul {
     right: -8rem;
   }
   .extras-big {
-    right: -6rem;
+    right: -10rem;
   }
   .lower-pics {
     width: 550px;
   }
+  #website {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .float-background {
+    left: 9rem;
+  }
   #website .lower-pics {
-    top: 0rem;
+    top: -2rem;
     right: 0rem;
-    left: -5rem;
-    width: 600px;
+    left: -2rem;
+    width: 500px;
   }
   .banner-hide {
     display: inline-block;
@@ -954,7 +1014,7 @@ ul {
     }
   }
   .web-pic {
-    right: -6rem;
+    right: -8rem;
   }
   .lower-pics2 {
     left: 2rem;

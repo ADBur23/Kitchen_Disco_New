@@ -28,9 +28,16 @@ p {
   font-size: 0.85rem !important;
 }
 
-.test {
-  background-color: #fff3ef;
-  border-radius: 50px;
+.KD-theme {
+  background-color: #def984;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.contact-us {
+  background-color: #ffdbcd;
+  border-radius: 25px;
+  text-align: center;
 }
 
 /* ------ Fonts ------ */
@@ -189,7 +196,7 @@ p {
 
 .btn-email {
   background-color: #fa0c94;
-  color: #11ddac;
+  color: #212553;
   box-shadow: 3px 3px 2px 2px #686860b3;
   margin-bottom: 1rem;
   font-size: 1.1rem;
@@ -201,11 +208,7 @@ p {
 }
 
 .top-btn-mob {
-  display: inline-block;
-  position: relative;
-  left: 1rem;
-  text-decoration: none;
-  width: 256px;
+  text-align: center;
 }
 
 @media (min-width: 375px) {
@@ -231,9 +234,9 @@ p {
   p {
     font-size: 1.15rem !important;
   }
-  .top-btn-mob {
+  /* .top-btn-mob {
     left: 4rem;
-  }
+  } */
   .off-white-background {
     height: 269px;
   }
@@ -260,19 +263,21 @@ p {
     top: 1px;
     right: 128px;
   }
-  .container {
-    position: relative;
-    top: 5rem;
+  #faqs-page {
+    margin-top: 5rem;
   }
-  .top-btn-mob {
+  /* .top-btn-mob {
     left: 8rem;
-  }
+  } */
   .off-white-background {
     height: 313px;
   }
 }
 
 @media (min-width: 768px) {
+  #faqs-page {
+    margin-top: 6rem;
+  }
   /* .main-nav {
     display: block;
     position: fixed;
@@ -315,14 +320,14 @@ p {
     border-radius: 25px;
     color: black;
   }
-  .top-btn-mob {
+  /* .top-btn-mob {
     left: 14rem;
-  }
+  } */
 }
 
 @media (min-width: 992px) {
   #faqs-page {
-    margin-top: 3rem;
+    margin-top: 7rem;
   }
   .header-background {
     height: 85.5px;
@@ -343,7 +348,7 @@ p {
   h1 {
     font-size: 3.5rem !important;
   }
-  h2 {
+  /* h2 {
     font-size: 2.2rem !important;
     color: #212553;
   }
@@ -355,20 +360,20 @@ p {
   }
   p {
     font-size: 1.4rem !important;
-  }
+  } */
   .nav-text,
   .location-text {
     margin-top: 1rem;
   }
-  .top-btn-mob {
+  /* .top-btn-mob {
     left: 21rem;
-  }
+  } */
   .off-white-background {
     height: 458px;
   }
   .party-pix {
     position: relative;
-    bottom: 4rem;
+    bottom: 1rem;
   }
 }
 
@@ -392,18 +397,21 @@ p {
     width: 55%;
     height: 67px;
   }
-  .top-btn-mob {
-    left: 27rem;
+  .party-pix {
+    bottom: 3rem;
   }
+  /* .top-btn-mob {
+    left: 27rem;
+  } */
 }
 
 @media (min-width: 1400px) {
   .logo-button {
     width: 61%;
   }
-  .top-btn-mob {
-    left: 20rem;
-  }
+  /* .top-btn-mob {
+    left: 32.7rem;
+  } */
   .off-white-background {
     height: 565px;
   }
