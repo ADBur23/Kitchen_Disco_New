@@ -276,7 +276,7 @@ p {
   }
   .logo-hover {
     top: 1px;
-    right: 128px;
+    right: 113px;
   }
   #get-to-kno {
     position: relative;
@@ -306,7 +306,7 @@ p {
   }
   .logo-hover {
     top: 1px;
-    right: 182px;
+    right: 166px;
   }
 
   .insta-head,
@@ -332,7 +332,7 @@ p {
 
 @media (min-width: 992px) {
   .header-background {
-    height: 85.5px;
+    height: 80px;
   }
   .logo-button {
     width: 27%;
@@ -341,11 +341,12 @@ p {
   .logo-hover {
     right: 0px;
     top: 6px;
-    width: 110px;
+    width: 102px;
   }
   .location-text,
   .nav-text {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
   }
   .tt-ad {
     margin-bottom: 40px;
@@ -369,14 +370,14 @@ p {
   .btn-email {
     font-size: 1.5rem;
   }
-  .location-text,
+  /* .location-text,
   .nav-text {
     font-size: 1.7rem;
-  }
-  .nav-text,
+  } */
+  /* .nav-text,
   .location-text {
-    margin-top: 1rem;
-  }
+    
+  } */
   /* .top-btn-disp {
     left: 22rem;
   } */
@@ -394,10 +395,10 @@ p {
     height: 67px;
   }
   .tt-ad {
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
   }
   .insta-ad {
-    margin-bottom: 30px;
+    margin-bottom: 0.3rem;
   }
   /* .top-btn-disp {
     left: 27rem;
@@ -416,6 +417,9 @@ p {
   .tt-ad,
   .insta-ad {
     margin-left: 45px;
+  }
+  .insta-ad {
+    margin-bottom: 2rem;
   }
   .btn-email {
     font-size: 1.7rem;
