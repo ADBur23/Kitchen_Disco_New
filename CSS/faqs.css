@@ -212,6 +212,18 @@ p {
   text-align: center;
 }
 
+.linky-link {
+  color: #def984;
+}
+
+.pink-box-title {
+  color: #def984 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
 @media (min-width: 375px) {
   .off-white-background {
     height: 231px;

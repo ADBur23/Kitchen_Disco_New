@@ -208,6 +208,10 @@ section#second-paragraph {
   padding-right: 7%;
 }
 
+.pink-box-title {
+  color: #def984;
+}
+
 .half-two {
   background-color: #def984;
 
@@ -560,7 +564,7 @@ section#second-paragraph {
   }
 }
 
-@media (max-width: 1999px) {
+@media (max-width: 1199px) {
   .nav {
     position: relative;
     left: 20%;
