@@ -6,6 +6,7 @@ h1 {
   font-size: 2.4rem !important;
   color: #fa0c94;
   text-align: center;
+  filter: drop-shadow(3px 2px 2px black);
 }
 h2 {
   font-size: 1.25rem !important;
@@ -487,7 +488,7 @@ ul {
     font-size: 2.9rem !important;
   }
   h2 {
-    font-size: 1.75rem !important;
+    font-size: 1.5rem !important;
     color: #212553;
   }
   h3 {
@@ -580,7 +581,7 @@ ul {
   }
   .logo-hover {
     top: 1px;
-    right: 128px;
+    right: 113px;
   }
   .lower-pics {
     bottom: 2rem;
@@ -633,7 +634,7 @@ ul {
   }
   .logo-hover {
     top: 1px;
-    right: 182px;
+    right: 166px;
   }
   .btn-pricing {
     font-size: 1.3rem;
@@ -754,7 +755,7 @@ ul {
 
 @media (min-width: 992px) {
   .header-background {
-    height: 85.5px;
+    height: 80px;
   }
   .logo-button {
     width: 27%;
@@ -763,20 +764,20 @@ ul {
   .logo-hover {
     right: 0px;
     top: 6px;
-    width: 110px;
+    width: 102px;
   }
   .location-text,
   .nav-text {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
   }
   h1 {
     font-size: 4rem !important;
   }
-  /* h2 {
-    font-size: 2.2rem !important;
-    color: #212553;
+  h2 {
+    font-size: 1.75rem !important;
   }
-  h3 {
+  /* h3 {
     font-size: 2rem !important;
   }
   span {
@@ -785,8 +786,11 @@ ul {
   p {
     font-size: 1.4rem !important;
   } */
+  #break-paragraph .img-fluid {
+    max-width: 68%;
+  }
   .everything-sml {
-    left: 0px;
+    left: -2rem;
     margin-top: 2rem;
   }
   .lower-pics {
@@ -943,13 +947,21 @@ ul {
   }
   .lower-pics2 {
     left: 1rem;
-    top: 3rem;
+    top: 0rem;
     width: 480px;
   }
+
+  .everything-sml {
+    left: -3rem;
+    margin-top: 2rem;
+  }
+  #break-paragraph .img-fluid {
+    max-width: 57%;
+  }
   .lower-pics3 {
-    left: 4rem;
-    top: 26rem;
-    width: 400px;
+    left: 6rem;
+    top: 20rem;
+    width: 355px;
   }
   .float-background1 {
     width: 121%;
@@ -1018,14 +1030,14 @@ ul {
   }
   .lower-pics2 {
     left: 2rem;
-    top: 2rem;
+
     width: 500px;
   }
-  .lower-pics3 {
+  /* .lower-pics3 {
     top: 26rem;
     width: 414px;
     left: 5rem;
-  }
+  } */
   .float-background1 {
     width: 105%;
     left: 15rem;
@@ -1038,7 +1050,7 @@ ul {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .main-nav {
     display: none;
   }

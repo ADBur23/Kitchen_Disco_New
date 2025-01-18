@@ -9,6 +9,7 @@ body {
 h1 {
   font-size: 2.4rem !important;
   color: #fa0c94;
+  filter: drop-shadow(3px 2px 2px black);
 }
 
 h2 {
@@ -253,7 +254,7 @@ p {
     position: fixed;
     height: 72.5px;
     width: -webkit-fill-available;
-    z-index: 1;
+    z-index: 2;
     top: 0rem;
   }
   .hidden-nav {
@@ -261,7 +262,7 @@ p {
   }
   .logo-hover {
     top: 1px;
-    right: 128px;
+    right: 113px;
   }
   #faqs-page {
     margin-top: 5rem;
@@ -300,7 +301,7 @@ p {
   }
   .logo-hover {
     top: 1px;
-    right: 182px;
+    right: 166px;
   }
   .off-white-background {
     height: 404px;
@@ -330,7 +331,7 @@ p {
     margin-top: 7rem;
   }
   .header-background {
-    height: 85.5px;
+    height: 80px;
   }
   .logo-button {
     width: 27%;
@@ -339,11 +340,12 @@ p {
   .logo-hover {
     right: 0px;
     top: 6px;
-    width: 110px;
+    width: 102px;
   }
   .location-text,
   .nav-text {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
   }
   h1 {
     font-size: 3.5rem !important;
@@ -361,10 +363,10 @@ p {
   p {
     font-size: 1.4rem !important;
   } */
-  .nav-text,
+  /* .nav-text,
   .location-text {
     margin-top: 1rem;
-  }
+  } */
   /* .top-btn-mob {
     left: 21rem;
   } */
@@ -417,7 +419,7 @@ p {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .main-nav {
     display: none;
   }

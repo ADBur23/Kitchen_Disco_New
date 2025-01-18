@@ -35,6 +35,7 @@ section#what-we-offer {
 
 h1 {
   font-size: 2.4rem !important;
+  filter: drop-shadow(3px 2px 2px black);
 }
 
 h2 {
@@ -629,7 +630,7 @@ p {
     font-size: 2.9rem !important;
   }
   h2 {
-    font-size: 1.75rem !important;
+    font-size: 1.5rem !important;
     color: #212553;
   }
   h3 {
@@ -695,7 +696,7 @@ p {
   }
   .logo-hover {
     top: 1px;
-    right: 128px;
+    right: 113px;
   }
   #hero {
     margin-top: 5rem;
@@ -764,7 +765,7 @@ p {
   }
   .logo-hover {
     top: 1px;
-    right: 182px;
+    right: 166px;
   }
 
   .hero-button {
@@ -888,7 +889,7 @@ p {
 
 @media (min-width: 992px) {
   .header-background {
-    height: 85.5px;
+    height: 80px;
   }
   .logo-button {
     width: 27%;
@@ -897,11 +898,12 @@ p {
   .logo-hover {
     right: 0px;
     top: 6px;
-    width: 110px;
+    width: 102px;
   }
   .location-text,
   .nav-text {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
   }
   .mx-lg-auto {
     margin-right: auto !important;
@@ -946,10 +948,10 @@ p {
     width: 120px;
     top: 5.7px; 
   } */
-  .location-text,
+  /* .location-text,
   .nav-text {
     font-size: 1.7rem;
-  }
+  } */
   .hero-button {
     padding-left: 0rem;
     top: -7rem;
@@ -989,10 +991,9 @@ p {
   h1 {
     font-size: 3.5rem !important;
   }
-  /* h2 {
-    font-size: 2.2rem !important;
-    color: #212553;
-  } */
+  h2 {
+    font-size: 1.75rem !important;
+  }
   /* h3 {
     font-size: 2rem !important;
   } */
