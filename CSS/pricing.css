@@ -330,7 +330,7 @@ ul {
   bottom: 16px;
 }
 
-#socials {
+#branding {
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
@@ -799,7 +799,7 @@ svg {
     bottom: 0rem;
     top: 5rem;
   }
-  #socials .lower-pics {
+  #branding .lower-pics {
     bottom: 0rem;
     top: 2rem;
   }
@@ -929,7 +929,7 @@ svg {
   #website .lower-pics {
     top: 2rem;
   }
-  #socials .lower-pics {
+  #branding .lower-pics {
     top: 0rem;
   }
   .social-selling {
@@ -957,7 +957,7 @@ svg {
     margin-top: 2.5rem;
     margin-bottom: 1rem;
   }
-  #socials {
+  #branding {
     margin-top: 2.5rem;
   }
   .web-pic {
