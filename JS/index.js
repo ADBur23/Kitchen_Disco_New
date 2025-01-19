@@ -43,11 +43,11 @@ $("");
 // }
 
 var initialSrc = "./Images/20230916_192801.jpg";
-var scrollSrc = "./Images/20240128_175556.jpg";
+var scrollSrc = "./Images/20230729_114810.jpg";
 
 $(window).scroll(function () {
   var value = $(this).scrollTop();
-  if (value > 800) $(".ant-bex").attr("src", scrollSrc);
+  if (value > 1000) $(".ant-bex").attr("src", scrollSrc);
   else $(".ant-bex").attr("src", initialSrc);
 });
 
