@@ -42,7 +42,7 @@ $("");
 //   // $(".ant-bex").fadeOut();
 // }
 
-var initialSrc = "./Images/20240129_092655.jpg";
+var initialSrc = "./Images/20230916_192801.jpg";
 var scrollSrc = "./Images/20240128_175556.jpg";
 
 $(window).scroll(function () {
