@@ -1,46 +1,3 @@
-body {
-  background-image: url(../Images/Untitled\ design.png);
-}
-
-#faqs-page {
-  margin-top: 1rem;
-}
-
-h1 {
-  font-size: 2.4rem !important;
-  color: #fa0c94;
-  filter: drop-shadow(3px 2px 2px black);
-}
-
-h2 {
-  font-size: 1.25rem !important;
-  color: #212553;
-}
-
-h3 {
-  font-size: 1rem !important;
-}
-
-span {
-  font-size: 0.85rem;
-}
-
-p {
-  font-size: 0.85rem !important;
-}
-
-.KD-theme {
-  background-color: #def984;
-  border-radius: 25px;
-  text-align: center;
-}
-
-.contact-us {
-  background-color: #ffdbcd;
-  border-radius: 25px;
-  text-align: center;
-}
-
 /* ------ Fonts ------ */
 
 .tilt-warp {
@@ -82,11 +39,42 @@ p {
   font-style: normal;
 }
 
+/* ------ Elements ------ */
+
+body {
+  background-image: url(../Images/Untitled\ design.png);
+}
+
+h1 {
+  font-size: 2.4rem !important;
+  color: #fa0c94;
+  filter: drop-shadow(3px 2px 2px black);
+}
+
+h2 {
+  font-size: 1.25rem !important;
+  color: #212553;
+}
+
+h3 {
+  font-size: 1rem !important;
+}
+
+span {
+  font-size: 0.85rem;
+}
+
+p {
+  font-size: 0.85rem !important;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* ------ Header ------ */
 
 .header-background {
-  /* background-image: url(../Images/Website_Banner2.png);
-  background-repeat: repeat; */
   background-color: #212553;
   background-repeat: repeat;
   border: 3px solid #000000;
@@ -137,6 +125,12 @@ p {
   background-image: url(../Images/home-button-green.svg);
 }
 
+/* ------ FAQ Intro ------ */
+
+#faqs-page {
+  margin-top: 1rem;
+}
+
 .faq-text {
   color: #fa0c94;
 }
@@ -145,12 +139,6 @@ p {
   display: flex;
 }
 
-/* .antnbex {
-  position: relative;
-  width: 50%;
-  transform: scaleX(-1);
-/* } */
-
 .antnbex2 {
   position: relative;
   width: 50%;
@@ -158,18 +146,13 @@ p {
   filter: drop-shadow(5px 5px 5px #222);
 }
 
-/* .antnbex3 {
-  position: relative;
-  width: 50%;
-  transform: scaleX(-1);
-  transform: rotate(180deg);
-} */
-
 .antnbex4 {
   position: relative;
   width: 50%;
   filter: drop-shadow(5px 5px 5px #222);
 }
+
+/* ------ FAQ Questions ------ */
 
 .white-background,
 .white-background-change {
@@ -195,6 +178,28 @@ p {
   height: 209px;
 }
 
+.white-box-title {
+  color: #def984 !important;
+}
+
+.linky-link {
+  color: #fa0c94;
+}
+
+/* ------ Contact ------ */
+
+.KD-theme {
+  background-color: #def984;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.contact-us {
+  background-color: #ffdbcd;
+  border-radius: 25px;
+  text-align: center;
+}
+
 .btn-email {
   background-color: #fa0c94;
   color: #212553;
@@ -210,18 +215,6 @@ p {
 
 .top-btn-mob {
   text-align: center;
-}
-
-.linky-link {
-  color: #def984;
-}
-
-.pink-box-title {
-  color: #def984 !important;
-}
-
-a {
-  text-decoration: none;
 }
 
 /* ------ Footer ------ */
@@ -309,7 +302,6 @@ svg {
   }
   h2 {
     font-size: 1.75rem !important;
-    color: #212553;
   }
   h3 {
     font-size: 1.5rem !important;
@@ -320,9 +312,6 @@ svg {
   p {
     font-size: 1.15rem !important;
   }
-  /* .top-btn-mob {
-    left: 4rem;
-  } */
   .off-white-background {
     height: 269px;
   }
@@ -355,9 +344,6 @@ svg {
   #faqs-page {
     margin-top: 5rem;
   }
-  /* .top-btn-mob {
-    left: 8rem;
-  } */
   .off-white-background {
     height: 313px;
   }
@@ -380,22 +366,6 @@ svg {
   #faqs-page {
     margin-top: 6rem;
   }
-  /* .main-nav {
-    display: block;
-    position: fixed;
-    z-index: 1;
-    width: -webkit-fill-available;
-  }
-  .header-background {
-    position: fixed;
-    height: 72.5px;
-    width: -webkit-fill-available;
-    z-index: 1;
-    top: 0rem;
-  }
-  .hidden-nav {
-    display: none;
-  } */
   .nav-text,
   .location-text {
     font-size: 1.3rem;
@@ -416,15 +386,20 @@ svg {
     color: #fff3ef;
     border-radius: 25px;
   }
-
+  .white-box-title {
+    color: #212553 !important;
+  }
+  .pink-box-title {
+    color: #def984 !important;
+  }
+  .linky-link {
+    color: #def984;
+  }
   .pink-background {
     background-color: #fff3ef;
     border-radius: 25px;
     color: black;
   }
-  /* .top-btn-mob {
-    left: 14rem;
-  } */
 }
 
 @media (min-width: 992px) {
@@ -451,26 +426,9 @@ svg {
   h1 {
     font-size: 3.5rem !important;
   }
-  /* h2 {
-    font-size: 2.2rem !important;
-    color: #212553;
+  h2 {
+    font-size: 1.75rem !important;
   }
-  h3 {
-    font-size: 2rem !important;
-  }
-  span {
-    font-size: 1.4rem;
-  }
-  p {
-    font-size: 1.4rem !important;
-  } */
-  /* .nav-text,
-  .location-text {
-    margin-top: 1rem;
-  } */
-  /* .top-btn-mob {
-    left: 21rem;
-  } */
   .off-white-background {
     height: 458px;
   }
@@ -484,15 +442,6 @@ svg {
   .logo-hover {
     right: -1px;
   }
-  .float-background {
-    /* background-color: #fff3ef;
-    border-radius: 25px; */
-    width: 64%;
-    /* position: relative; */
-    left: 8rem;
-    /* margin-right: 20%;
-    padding-left: 8%; */
-  }
 }
 
 @media (min-width: 1200px) {
@@ -503,18 +452,12 @@ svg {
   .party-pix {
     bottom: 3rem;
   }
-  /* .top-btn-mob {
-    left: 27rem;
-  } */
 }
 
 @media (min-width: 1400px) {
   .logo-button {
     width: 61%;
   }
-  /* .top-btn-mob {
-    left: 32.7rem;
-  } */
   .off-white-background {
     height: 565px;
   }
