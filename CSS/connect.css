@@ -68,6 +68,10 @@ p {
   font-size: 0.85rem !important;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* ------ Header ------ */
 
 .header-background {
@@ -432,9 +436,6 @@ svg {
   }
   .btn-email {
     font-size: 1.7rem;
-  }
-  .logo-button {
-    width: 61%;
   }
 }
 

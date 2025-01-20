@@ -69,6 +69,10 @@ p {
   font-size: 0.85rem !important;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* ------ Header ------ */
 
 .nav-text {
